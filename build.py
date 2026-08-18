@@ -2,7 +2,7 @@
 """한국사회사 자료 워크숍 — 학생용 정적 사이트 빌드.
 
 원천: ~/apps/gwangju-index/work/stats/  (면적·광공업 values/headers CSV, 지면 png)
-산출: ./site/  (GitHub Pages 루트)
+산출: ./docs/  (GitHub Pages 루트)
 
 원칙: 데이터를 정제하지 않는다. 열 이름만 한글로 바꾸고 값·플래그는 그대로.
 """
@@ -11,7 +11,7 @@ from pathlib import Path
 from PIL import Image
 
 SRC = Path.home() / "apps/gwangju-index/work/stats"
-OUT = Path(__file__).parent / "site"
+OUT = Path(__file__).parent / "docs"
 IMG_W = 1600
 IMG_Q = 80
 
