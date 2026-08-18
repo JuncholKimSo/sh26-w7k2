@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<p class="home"><a href="../">← 수업 홈</a></p>
 <header>
   <p class="kicker">한국사회사 2026-2 · 자료 워크숍 2~4주 (6회)</p>
   <h1>통계로 지역 변화 읽기</h1>
@@ -22,6 +23,16 @@
     <li>여러분의 산출물은 여러분의 배움으로 완결된다. 교수의 연구에 쓰지 않는다. 쓰게 된다면 별도로 동의를 구하고 이름을 밝힌다.</li>
     <li>이 페이지는 수강생용 비공개 링크다. 밖으로 옮기지 말 것.</li>
   </ol>
+  <p class="warn" style="margin:.7rem 0 0">인용 불가 상태(열 매핑 미완·OCR 미대조). 워크숍 안에서만.</p>
+</section>
+
+<section>
+  <h2>두 입구</h2>
+  <div class="entry">
+    <a class="card" href="viewer.html"><strong>계열 뷰어 →</strong><span>계열(면적·광공업·인구·가구…)을 고르고 판(연도)을 넘기며, 지면 이미지와 그 쪽에서 뽑힌 값을 나란히 본다. 시계열 미니차트, 살림/버림 판정 기록(CSV 내보내기).</span></a>
+    <a class="card" href="catalog.html"><strong>표 카탈로그 검색 →</strong><span>1952~2025년 판 전체의 표 목록 2만 6천여 건. 제목·장·판 범위·표번호로 찾고, 같은 제목이 어느 판에 있는지 한눈에. 지면은 없다(연감 원본 안내).</span></a>
+  </div>
+  <p class="small">뷰어의 주소창 <code>#계열/판/쪽</code>은 그대로 복사해 공유할 수 있다. 판정 기록은 여러분의 브라우저에만 저장된다 — 끝나면 반드시 CSV로 내보낼 것.</p>
 </section>
 
 <section>
@@ -42,32 +53,31 @@
 
 <section>
   <h2>자료</h2>
-  <h3>지면 뷰어</h3>
-  <p><a class="btn" href="viewer.html">지면 뷰어 열기 →</a> 통계연감의 실제 쪽 이미지와, 그 쪽에서 기계가 뽑아낸 값을 나란히 본다. 행에 마우스를 올리면 그 값이 지면의 어느 위치에서 왔는지 세로선이 표시된다. <strong>어느 열이 무엇인지는 표시하지 않는다 — 그걸 가리는 것이 여러분의 일이다.</strong></p>
+  <h3>정제 상태와 계열</h3>
+  <p class="small" id="built">불러오는 중…</p>
+  <table class="files" id="stab">
+    <thead><tr><th>계열</th><th>판 범위</th><th>판 / 쪽 / 값 행</th><th>지역</th><th>내려받기</th><th>갱신</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="small">「_값.csv」는 열 이름을 한글로 바꾼 것, 「_values.csv」는 원본 열 이름(영문) 그대로. 「_표머리.csv」는 표 머리글을 기계가 읽은 것(깨진 부분 있음). 값 0행인 계열은 머리글과 지면 표본만 있다 — 왜 실패했는지가 3회차의 재료다.</p>
 
-  <h3>내려받기</h3>
+  <h3>판정 양식</h3>
   <table class="files">
-    <thead><tr><th>파일</th><th>내용</th><th>쓰는 회차</th></tr></thead>
     <tbody>
-      <tr><td><a href="data/광공업_값.csv" download>광공업_값.csv</a></td><td>시·도별 광공업 총괄 표에서 뽑은 값 1,040행 (1972~2016판)</td><td>3·4</td></tr>
-      <tr><td><a href="data/광공업_표머리.csv" download>광공업_표머리.csv</a></td><td>같은 표의 머리글을 기계가 읽은 것 (깨진 부분 있음)</td><td>3·4</td></tr>
-      <tr><td><a href="data/면적_값.csv" download>면적_값.csv</a></td><td>시·도별 면적 및 행정단위 표에서 뽑은 값 859행 (1960~2021판)</td><td>1 (시연)</td></tr>
-      <tr><td><a href="data/면적_표머리.csv" download>면적_표머리.csv</a></td><td>같은 표의 머리글</td><td>1</td></tr>
-      <tr><td><a href="data/금융_headers.csv" download>금융_headers.csv</a> · <a href="data/금융_values.csv" download>금융_values.csv</a></td><td>금융 표는 머리글만 읽히고 <strong>값은 0행</strong>. 왜 그런지는 3회차에</td><td>3</td></tr>
-      <tr><td><a href="data/판정기록_양식.csv" download>판정기록_양식.csv</a></td><td>살림/버림/보류 + 이유 + 없는 해 기록 양식</td><td>4~6</td></tr>
+      <tr><td><a href="data/판정기록_양식.csv" download>판정기록_양식.csv</a></td><td>살림/버림/보류 + 이유 + 없는 해 기록 양식. 뷰어의 「CSV 내보내기」가 같은 열(+수정값)로 나온다</td><td>4~6회</td></tr>
     </tbody>
   </table>
-  <p class="small">원본 열 이름(영문) 그대로인 파일도 같은 폴더에 있다: <code>data/광공업_values.csv</code> 등.</p>
 
   <h3>열 설명</h3>
   <table class="cols">
     <tbody>
-      <tr><th>계열</th><td>면적 / 광공업</td></tr>
+      <tr><th>계열</th><td>면적 / 광공업 / 인구 / 시별인구 / 가구 / 주택 … (위 표에 있는 것 전부. 추출이 끝나는 대로 늘어난다)</td></tr>
       <tr><th>판</th><td>통계연감의 발행 연도. <strong>표 안의 숫자는 보통 그 전해(또는 전전해)의 것</strong>이다. 지면에서 확인할 것</td></tr>
-      <tr><th>쪽</th><td>그 판의 쪽 번호. 뷰어에서 같은 쪽을 볼 수 있다</td></tr>
+      <tr><th>쪽</th><td>그 판 PDF의 쪽 번호. 뷰어에서 같은 쪽을 볼 수 있다</td></tr>
       <tr><th>표제목 · 장</th><td>기계가 읽은 표 제목과 장 이름. 판마다 조금씩 다르다 — 그 차이도 자료다</td></tr>
-      <tr><th>블록</th><td>같은 쪽 안의 구획. 면적은 전체/읍면부, 광공업은 광업 및 제조업/광업/제조업 등. <strong>같은 지역이 한 쪽에 여러 번 나온다</strong></td></tr>
-      <tr><th>지역</th><td>전국 / 전남 / 광주. 지면의 이름은 시대마다 다르다(광주시→광주직할시→광주광역시)</td></tr>
+      <tr><th>블록</th><td>같은 쪽 안의 구획(전체/시부/군부/읍면부/동부 등, 광공업은 광업 및 제조업/광업/제조업). <strong>같은 지역이 한 쪽에 여러 번 나온다</strong></td></tr>
+      <tr><th>지역</th><td>전국 / 전남 / 광주 (인구·가구 계열은 시도 전부). 지면의 이름은 시대마다 다르다(광주시→광주직할시→광주광역시)</td></tr>
+      <tr><th>열순번</th><td>그 줄에서 몇 번째 숫자였나(0부터). 판마다 열 구성이 달라 <strong>같은 열순번이 같은 항목이라는 보장은 없다</strong></td></tr>
       <tr><th>x위치</th><td>그 값이 지면 가로폭의 어디쯤(0~1)에 있었나. <strong>같은 열이면 x가 비슷하다.</strong> 열을 가르는 실마리</td></tr>
       <tr><th>원문 · 값</th><td>기계가 읽은 글자 그대로 / 숫자로 바꾼 것. 띄어쓰기·소수점이 유실됐을 수 있다</td></tr>
       <tr><th>신뢰도</th><td>기계의 자신감(0~1). 낮다고 틀린 것도, 높다고 맞는 것도 아니다</td></tr>
@@ -90,5 +100,20 @@
 <footer>
   <p>이 페이지는 수업 종료 후 내린다. 문의는 수업 시간 또는 이메일로.</p>
 </footer>
+<script>
+fetch('manifest.json').then(r=>r.json()).then(m=>{
+  const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const tb=document.querySelector('#stab tbody');
+  const ks=Object.keys(m.series);
+  const nser=ks.filter(k=>!m.series[k].failed).length, nrows=ks.reduce((a,k)=>a+m.series[k].rows,0), npg=ks.reduce((a,k)=>a+m.series[k].pages.length,0);
+  document.getElementById('built').textContent=`빌드 ${m.built} · 계열 ${ks.length}개(값 있는 계열 ${nser}) · 지면 ${npg}쪽 · 값 ${nrows.toLocaleString()}행 · 표 카탈로그 ${(m.catalog?.rows||0).toLocaleString()}건. 값·플래그는 추출기 산출 그대로이며 정제하지 않았다.`;
+  ks.forEach(k=>{
+    const s=m.series[k]; const e=s.editions;
+    const dl=s.failed?`<a href="data/${k}_표머리.csv" download>표머리</a> · <a href="data/${k}_values.csv" download>values(0행)</a>`
+      :`<a href="data/${k}_값.csv" download>값</a> · <a href="data/${k}_표머리.csv" download>표머리</a> · <a href="data/${k}_values.csv" download>values</a>`;
+    tb.insertAdjacentHTML('beforeend',`<tr><td><a href="viewer.html#${encodeURIComponent(k)}">${esc(k)}</a>${s.failed?' <span class="tag f">값 0행</span>':''}</td><td>${e.length?esc(e[0])+'~'+esc(e[e.length-1]):''}</td><td>${e.length} / ${s.pages.length} / ${s.rows.toLocaleString()}</td><td class="small">${s.regions.length?esc(s.regions.join(' ')):'–'}</td><td class="small">${dl}</td><td class="small">${esc(s.updated)}</td></tr>`);
+  });
+});
+</script>
 </body>
 </html>

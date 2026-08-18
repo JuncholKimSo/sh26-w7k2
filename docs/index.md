@@ -44,7 +44,7 @@ layout: default
 - [강독 논문 목록·묶음 쪽 지도](common/readings.html) · [참고도서·참고문헌](common/bibliography.html) · [개념 지도](common/concept-map.html)
 - 양식: [리뷰 노트](common/templates/review-note.html) · [미니 논증](common/templates/mini-argument.html) · [아카이빙 계획서](common/templates/archiving-plan.html) · [기말 원고](common/templates/final-paper.html)
 - 안내: [디지털 자료 찾기(요약)](common/guides/digital-sources.html) · [통계 안내](common/guides/statistics-guide.html) · [시드 자료 이용 규칙](common/guides/seed-data-rules.html)
-- 3주 보조: [통계연감 지면 뷰어(광주·전남 면적·광공업)](workshop-stats/index.html) — 인용 불가 상태의 실습 재료, 상단 고지 참조.
+- 3주 보조: [통계연감 자료 워크숍](workshop-stats/index.html) — [계열 뷰어](workshop-stats/viewer.html)(면적·광공업·인구·가구… 지면+추출값+판정 기록)와 [표 카탈로그 검색](workshop-stats/catalog.html)(1952~2025 전 판 표 목록). 인용 불가 상태의 실습 재료, 상단 고지 참조.
 
 ## 규칙
 리뷰 노트는 수업 전 제출 · 어디가 이해 안 되는지 표시하고 온다 · 그림마다 "보여주는 것 / 숨기는 것" · AI 사용 내역 명시 · 광장 자료는 수업 목적으로만. → [강의계획 요약](syllabus.html)

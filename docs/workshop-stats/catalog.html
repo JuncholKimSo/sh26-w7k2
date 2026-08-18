@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>표 카탈로그 — 자료 워크숍</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="catalog">
+<p class="home"><a href="index.html">← 안내</a> · <a href="viewer.html">계열 뷰어</a></p>
+<header>
+  <p class="kicker">한국사회사 2026-2 · 자료 워크숍</p>
+  <h1>『한국통계연감』 표 카탈로그</h1>
+  <p class="lead" id="lead">1952~2025년 판에 실린 표의 목록을 판·장·표번호·쪽으로 찾는다.</p>
+</header>
+<p class="warn" style="margin-top:1rem">이 카탈로그는 <strong>표 제목의 목록</strong>이다. 지면 이미지와 값은 없다(제목도 기계 판독이라 깨진 곳이 있다). 실제 표는 <a href="https://www.nl.go.kr/NL/contents/search.do?kwd=%ED%95%9C%EA%B5%AD%ED%86%B5%EA%B3%84%EC%97%B0%EA%B0%90" target="_blank" rel="noopener">국립중앙도서관</a>이나 <a href="https://kosis.kr/publication/publicationThema.do" target="_blank" rel="noopener">통계청(KOSIS) 간행물 e-book</a>에서 그 판을 열어 확인한다. 뒤를 잇는 수치는 <a href="https://kosis.kr/" target="_blank" rel="noopener">KOSIS</a>에서 찾는다. 지면을 뽑아 둔 계열·판이면 「뷰어」 링크가 붙는다.</p>
+
+<div class="cbar">
+  <label>제목 (띄어쓰기·가운뎃점 무시, 여러 낱말은 모두 포함) <input type="text" id="q" placeholder="예: 광공업 총괄 / 인구 시도 / 면적"></label>
+  <label>장 <input type="text" id="ch" placeholder="예: 인구 / 토지"></label>
+  <label>분류 <select id="cat"><option value="">(전체)</option></select></label>
+  <label>판 범위 <span class="range"><input type="number" id="e0" min="1952" max="2025" placeholder="1952"> ~ <input type="number" id="e1" min="1952" max="2025" placeholder="2025"></span></label>
+  <label>표번호 <input type="text" id="tn" placeholder="예: 12"></label>
+  <label>&nbsp;<span><button class="btn sec" id="clr">지우기</button></span></label>
+</div>
+<div class="cmode">
+  <label><input type="radio" name="mode" value="rows" checked> 행 목록</label>
+  <label><input type="radio" name="mode" value="group"> 제목별 묶기 — 같은(비슷한) 제목이 어느 판에 있는지</label>
+  <label style="margin-left:auto"><input type="checkbox" id="onlyv"> 뷰어 있는 것만</label>
+</div>
+<p class="cnt" id="cnt">불러오는 중…</p>
+<div style="overflow-x:auto"><table class="cres"><thead id="th"></thead><tbody id="tb"></tbody></table></div>
+<p class="small" id="more"></p>
+
+<footer><p>제목 정규화: 앞의 번호, 공백, 가운뎃점·괄호 안 연도 등을 지운 뒤 비교한다. 정규화가 지나쳐 다른 표가 묶이거나, 표기가 달라 같은 표가 갈릴 수 있다 — 그것도 확인해야 할 자료다.</p></footer>
+<script>
+'use strict';
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let CAT=null, ROWS=[], VMAP={}, M=null;
+const LIMIT=400;
+const norm=s=>String(s).replace(/^\s*[\d\-\.]+\s*[\.\)]?\s*/,'').replace(/[\(（][^\)）]*\d{2,4}[^\)）]*[\)）]/g,'').replace(/[:：]\s*\d{4}.*$/,'').replace(/[\s·ㆍ・,\.\(\)（）:：\/、\-—~〜\[\]「」『』'"]/g,'').toLowerCase();
+Promise.all([fetch('catalog.json').then(r=>r.json()),fetch('manifest.json').then(r=>r.json())]).then(([c,m])=>{CAT=c;M=m;init();});
+
+function init(){
+  ROWS=CAT.rows.map((r,i)=>({i,e:r[0],en:+r[0]||0,ch:CAT.chapters[r[1]],tn:String(r[2]),t:r[3],pg:r[4],c:CAT.cats[r[5]],n:norm(r[3]),cn:String(CAT.chapters[r[1]]).replace(/\s/g,'')}));
+  for(const s in M.series) M.series[s].pages.forEach(p=>{(VMAP[p.edition+'|'+p.page]=VMAP[p.edition+'|'+p.page]||[]).push(s);});
+  const cs=$('#cat'); CAT.cats.filter(Boolean).sort().forEach(c=>cs.add(new Option(c,c)));
+  $('#lead').textContent=`${CAT.rows.length.toLocaleString()}개 표 · ${M.catalog.editions[0]}~${M.catalog.editions[1]}년 판 · 갱신 ${CAT.updated}`;
+  document.querySelectorAll('.cbar input,.cbar select,.cmode input').forEach(el=>{el.oninput=deb;el.onchange=deb;});
+  $('#clr').onclick=()=>{document.querySelectorAll('.cbar input').forEach(i=>i.value='');$('#cat').value='';$('#onlyv').checked=false;run();};
+  const q=new URLSearchParams(location.search); if(q.get('q')){$('#q').value=q.get('q');}
+  run();
+}
+let tm=null; function deb(){clearTimeout(tm);tm=setTimeout(run,150);}
+function filt(){
+  const qs=$('#q').value.split(/\s+/).filter(Boolean).map(s=>s.replace(/[\s·ㆍ・]/g,'').toLowerCase());
+  const ch=$('#ch').value.replace(/\s/g,''), cat=$('#cat').value, e0=+$('#e0').value||0, e1=+$('#e1').value||9999, tn=$('#tn').value.trim(), ov=$('#onlyv').checked;
+  return ROWS.filter(r=>(!qs.length||qs.every(q=>r.n.includes(q)||r.t.toLowerCase().replace(/[\s·ㆍ・]/g,'').includes(q)))&&(!ch||r.cn.includes(ch))&&(!cat||r.c===cat)&&r.en>=e0&&r.en<=e1&&(!tn||r.tn===tn)&&(!ov||VMAP[r.e+'|'+r.pg]));
+}
+function vlink(r){const v=VMAP[r.e+'|'+r.pg];if(!v)return '';return v.map(s=>`<a href="viewer.html#${encodeURIComponent(s)}/${r.e}/${r.pg}" title="${esc(s)} 계열 뷰어">뷰어·${esc(s)}</a>`).join('');}
+const kosis=t=>`<a href="https://kosis.kr/search/search.do?query=${encodeURIComponent(String(t).replace(/^\s*[\d\-\.]+\s*[\.\)]?\s*/,''))}" target="_blank" rel="noopener" title="KOSIS에서 이 제목으로 검색">KOSIS</a>`;
+function run(){
+  if(!CAT)return;
+  const rs=filt(); const mode=document.querySelector('input[name=mode]:checked').value;
+  const th=$('#th'), tb=$('#tb');
+  if(mode==='rows'){
+    th.innerHTML='<tr><th>판</th><th>장</th><th>표번호</th><th>제목</th><th>쪽</th><th>분류</th><th></th></tr>';
+    tb.innerHTML=rs.slice(0,LIMIT).map(r=>`<tr><td>${r.e}</td><td>${esc(r.ch)}</td><td>${esc(r.tn)}</td><td class="t">${esc(r.t)}</td><td class="pg">${r.pg}</td><td class="small">${esc(r.c)}</td><td class="lk">${vlink(r)}${kosis(r.t)}</td></tr>`).join('');
+    $('#cnt').textContent=`${rs.length.toLocaleString()}건`+(rs.length>LIMIT?` 중 앞 ${LIMIT}건 표시 — 조건을 좁힐 것`:'');
+  }else{
+    const g={};
+    rs.forEach(r=>{(g[r.n]=g[r.n]||{n:r.n,rows:[],eds:new Set(),t:{}}).rows.push(r);g[r.n].eds.add(r.en);g[r.n].t[r.t]=(g[r.n].t[r.t]||0)+1;});
+    const gs=Object.values(g).sort((a,b)=>b.eds.size-a.eds.size||a.n.localeCompare(b.n));
+    th.innerHTML='<tr><th>제목 (가장 흔한 표기)</th><th>판 수</th><th>실린 판</th><th>표기 가짓수</th></tr>';
+    tb.innerHTML=gs.slice(0,LIMIT).map((x,i)=>{
+      const top=Object.entries(x.t).sort((a,b)=>b[1]-a[1])[0][0];
+      const eds=[...x.eds].sort((a,b)=>a-b);
+      return `<tr class="g" data-i="${i}"><td class="t">${esc(top)}</td><td>${x.eds.size}</td><td class="eds">${ranges(eds)}</td><td>${Object.keys(x.t).length}</td></tr>`;
+    }).join('');
+    $('#cnt').textContent=`${rs.length.toLocaleString()}건 → 제목 묶음 ${gs.length.toLocaleString()}개`+(gs.length>LIMIT?` 중 앞 ${LIMIT}개 표시`:'')+' — 행을 누르면 판별 목록을 편다';
+    tb.querySelectorAll('tr.g').forEach(tr=>tr.onclick=()=>{
+      const nx=tr.nextElementSibling; if(nx&&nx.classList.contains('sub')){nx.remove();return;}
+      const x=gs[+tr.dataset.i];
+      const sub=document.createElement('tr'); sub.className='sub';
+      sub.innerHTML=`<td colspan="4"><table>${x.rows.sort((a,b)=>a.en-b.en).map(r=>`<tr><td>${r.e}</td><td>${esc(r.ch)}</td><td>${esc(r.tn)}</td><td class="t">${esc(r.t)}</td><td class="pg">${r.pg}쪽</td><td class="lk">${vlink(r)}${kosis(r.t)}</td></tr>`).join('')}</table></td>`;
+      tr.after(sub);
+    });
+  }
+}
+function ranges(a){const out=[];let s=a[0],p=a[0];for(let i=1;i<=a.length;i++){if(a[i]===p+1){p=a[i];continue;}out.push(s===p?String(s):`${s}–${p}`);s=p=a[i];}return out.join(', ');}
+</script>
+</body>
+</html>
