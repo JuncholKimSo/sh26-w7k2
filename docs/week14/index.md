@@ -18,6 +18,6 @@ layout: default
 
 ## 과제
 - **발표** (14주 2회차) — 발표 자료는 폼
-- 15주 준비: 김원(2005) pp.582~610 · 강성현 외(2013) pp.611~661 · **기말 원고** 마무리(양식 `../common/templates/final-paper.html`)
+- 15주 준비: 김원(2005) pp.582~610 · 강성현 외(2013) pp.611~661 · **기말 원고** 마무리(양식 [../common/templates/final-paper.html](../common/templates/final-paper.html))
 
 세부 진행·개념·주요 발췌·더 읽을 거리·참고문헌은 [자세한 안내문](handout.html)에.

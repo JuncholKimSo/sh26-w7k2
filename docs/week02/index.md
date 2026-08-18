@@ -19,9 +19,9 @@ layout: default
 - 2회차 — 국가·사회·가족(30) → 공간·스케일(20) → 기억·구술·일상·방법(20) → **격자 실습**(30): 개념 카드 20장을 시간×스케일 격자에 붙인다
 
 ## 이 주의 자료(교수 제공)
-- `data/concept_cards.csv` — 개념 카드 20장(이름·한 줄 뜻·대표 문헌·힌트). 인쇄해 잘라 쓴다
-- `../common/grid/grid_A3.html` — A3 격자 원판
-- `excerpts.html` — 개념별 원문 발췌 29편(참고)
+- [data/concept_cards.csv](data/concept_cards.csv) — 개념 카드 20장(이름·한 줄 뜻·대표 문헌·힌트). 인쇄해 잘라 쓴다
+- [../common/grid/grid_A3.html](../common/grid/grid_A3.html) — A3 격자 원판
+- [excerpts.html](excerpts.html) — 개념별 원문 발췌 29편(참고)
 
 ## 과제
 - **실습 ① 2주분**: 격자 사진 1장 + 여백 질문 한 줄("내 일상의 사물 하나는 이 격자 어디에 놓이는가") → 폼
