@@ -7,10 +7,10 @@
 
 ## 배포 (GitHub Pages, 비공개 URL)
 Pages는 공개 호스팅이다. "비공개"는 색인 차단(noindex)+짐작하기 어려운 저장소 이름+링크 미공개로 만든다.
-1. GitHub에서 저장소 새로 만들기 — 이름은 짐작 어려운 것(예: `sh26-w7k2`), Public (Private Pages는 유료 플랜)
+1. GitHub에서 저장소 새로 만들기 — 이름은 짐작 어려운 것(`sh26-w7k2` — 2026-08-18 배포됨), Public (Private Pages는 유료 플랜)
 2. 이 폴더에서: `git remote add origin git@github.com:<계정>/<저장소>.git && git push -u origin main`
 3. 저장소 Settings → Pages → Source: Deploy from a branch, Branch: `main`, Folder: `/docs` → Save
-4. 1~2분 뒤 `https://<계정>.github.io/<저장소>/` 로 접속. 학생에게는 이 링크만 준다
+4. 배포 주소: **https://juncholkimso.github.io/sh26-w7k2/**. 학생에게는 이 링크만 준다
 5. 학기 끝나면 Settings → Pages → Unpublish, 또는 저장소 삭제
 
 ⚠ 데이터는 인용 불가 상태. 사이트 상단 고지 유지. 검색엔진 색인은 `noindex`로 막았지만 링크가 퍼지면 접근 가능하다.
