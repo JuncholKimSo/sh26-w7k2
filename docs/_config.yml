@@ -1,0 +1,8 @@
+title: 한국사회사 2026-2
+description: 전남대학교 2026학년도 2학기 · 자료로 사회를 말하는 연습
+theme: jekyll-theme-minimal
+lang: ko
+show_downloads: false
+# 워크숍 통계 뷰어(정적 HTML)는 Jekyll이 손대지 않도록
+include: [workshop-stats]
+exclude: [Gemfile, Gemfile.lock, node_modules, vendor]

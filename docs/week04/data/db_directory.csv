@@ -1,0 +1,43 @@
+﻿부,DB 이름,URL,시기,자료 유형,검색 팁
+1 법령·관보,국가법령정보센터,https://www.law.go.kr/,현행~폐지 연혁,법령,법률>시행령>시행규칙 위계. 연혁 검색으로 제정·개정 추적
+1 법령·관보,국립중앙도서관 관보,https://www.nl.go.kr/NL/contents/N20301000000.do,구한국·조선총독부·미군정,관보,
+1 법령·관보,국가기록원 관보,https://theme.archives.go.kr/next/gazette/viewIntroduction01.do,1948~2000,관보,
+1 법령·관보,대한민국 전자관보,https://gwanbo.go.kr/main.do,2001~,관보,지자체는 시보
+2 통계,KOSIS 국가통계포털,https://kosis.kr/,1949~,통계,국가승인통계 통합. 시점·분류 조정 후 다운로드
+2 통계,통계청,https://kostat.go.kr/,,통계,총조사 원자료·보고서
+2 통계,매디슨 프로젝트,https://www.rug.nl/ggdc/historicaldevelopment/maddison/,장기,통계(추계),원자료 없는 구간은 추계 — 주의
+3 공간,국토정보플랫폼,https://map.ngii.go.kr/mn/mainPage.do,,항공사진·지도,
+3 공간,서울 항공사진,https://map.seoul.go.kr/smgis2/divisionMap,1972~,항공사진,
+3 공간,부산 항공사진,http://lifemap.busan.go.kr/,1972~,항공사진,
+3 공간,대구 항공사진,https://airmap.daegu.go.kr/airmap/public/map.do,1972~,항공사진,
+3 공간,규장각 고지도,https://kyudb.snu.ac.kr/main.do?mid=GZD,전근대,지도,
+3 공간,지적아카이브,https://theme.archives.go.kr/next/acreage/viewMain.do,1910~1918,지적도,조선토지조사사업
+3 공간,인터넷등기소,https://www.iros.go.kr/,,등기,권리관계(사법). 현황은 정부24 토지·건축물대장(행정)
+4 공문서,국가기록원,https://www.archives.go.kr/,,기록물철·건,기관명으로 먼저 검색. 키워드만으로는 한계
+4 공문서,대통령기록관,https://www.pa.go.kr/,,기록물,
+4 공문서,국무회의록,https://theme.archives.go.kr/next/cabinet/keywordDetailSearch.do,,회의록,
+4 공문서,e영상역사관,http://www.ehistory.go.kr/,,영상,대한뉴스·문화영화
+4 공문서,한국근현대영상아카이브,http://kfilm.khistory.org/,,영상 카탈로그,고려대 한국사연구소
+4 공문서,서울기록원,https://archives.seoul.go.kr/,,행정문서,정보공개청구 활용
+4 공문서,서울도서관,https://lib.seoul.go.kr/,,간행물·백서,기록원(과정)과 함께 볼 것
+4 공문서,서울역사아카이브,https://museum.seoul.go.kr/archive/NR_index.do,,사진·지도·생활문화,
+4 공문서,서울시의회 회의록,https://ms.smc.seoul.kr/,1961~1991 공백,회의록,공백 자체가 자료
+5 언론,국립중앙도서관 신문 아카이브,https://nl.go.kr/newspaper/,1880~1966,신문,
+5 언론,한국역사정보통합시스템 신문,http://www.koreanhistory.or.kr/newsPaper.do,1896~1963,신문,
+5 언론,네이버 뉴스라이브러리,https://newslibrary.naver.com/,1920~1999,신문,동아·조선·경향·매경·한겨레
+5 언론,빅카인즈,https://www.bigkinds.or.kr/,1990~,신문,
+5 언론,부산일보 지면보기,https://www.busan.com/,1946~,지역지,
+5 언론,국제신문,https://www.kookje.co.kr/,1947~,지역지,로그인 후 지면 PDF 열람
+6 생활사,e뮤지엄,http://www.emuseum.go.kr/,,소장품,
+6 생활사,대한민국역사박물관 디지털아카이브,http://archive.much.go.kr/,근현대,자료,
+6 생활사,근대기록문화아카이브,https://modern.koreastudy.or.kr/,1910~1970년대,사진 13만,일상 사진 풍부
+6 생활사,지방문화원 자료,https://www.nculture.org/res/resourcesList.do,,지역 자료,
+6 생활사,민주화운동 오픈아카이브,https://archives.kdemo.or.kr/,해방 후,기증 자료,
+6 생활사,한국학 데이터베이스,http://aks.koreaa2z.com/,1953~1980,잡지 원문,사상계·씨알의 소리
+6 생활사,5·18기록관,https://www.518archives.go.kr/,1980~,기록·구술,11주 광주
+7 기초·학술,한국사데이터베이스,http://db.history.go.kr/,,기초,국사편찬위
+7 기초·학술,한국학 디지털 아카이브,http://yoksa.aks.ac.kr/,,기초,
+7 기초·학술,규장각 원문검색,https://kyudb.snu.ac.kr/,,기초,
+7 기초·학술,동북아역사넷,http://contents.nahf.or.kr/,,기초,
+7 기초·학술,RISS,https://www.riss.kr/,,논문,논문도 사료
+7 기초·학술,KCI,https://www.kci.go.kr/,,논문,

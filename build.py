@@ -11,7 +11,7 @@ from pathlib import Path
 from PIL import Image
 
 SRC = Path.home() / "apps/gwangju-index/work/stats"
-OUT = Path(__file__).parent / "docs"
+OUT = Path(__file__).parent / "docs" / "workshop-stats"
 IMG_W = 1600
 IMG_Q = 80
 
