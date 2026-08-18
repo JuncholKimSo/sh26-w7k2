@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>지면 뷰어 — 자료 워크숍</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="viewer">
+<div class="vbar">
+  <a href="index.html">← 안내</a>
+  <label>계열 <select id="series"></select></label>
+  <label>판·쪽 <select id="page"></select></label>
+  <button id="prev" title="이전 쪽">‹</button><button id="next" title="다음 쪽">›</button>
+  <label class="zoom">배율 <select id="zoom"><option value="1">1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label>
+  <span class="meta" id="meta"></span>
+</div>
+<div class="vwrap">
+  <div class="vimg" id="vimg"><div class="stage"><img id="img" alt="지면"><div class="guide" id="guide"><span id="gx"></span></div></div></div>
+  <div class="vtab" id="vtab"></div>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+let M=null, S='광공업', I=0;
+fetch('manifest.json').then(r=>r.json()).then(m=>{M=m;init();});
+function init(){
+  const ss=$('#series');
+  for(const k of Object.keys(M.series)) ss.add(new Option(k,k));
+  ss.add(new Option('금융 (값 0행 — 실패 표본)','금융'));
+  ss.value=S; ss.onchange=()=>{S=ss.value;I=0;fillPages();show();};
+  $('#page').onchange=e=>{I=+e.target.value;show();};
+  $('#prev').onclick=()=>{if(I>0){I--;show();}};
+  $('#next').onclick=()=>{if(I<pages().length-1){I++;show();}};
+  $('#zoom').onchange=e=>{$('#img').style.width=(100*+e.target.value)+'%';};
+  const q=new URLSearchParams(location.search);
+  if(q.get('s')&&(M.series[q.get('s')]||q.get('s')==='금융')){S=q.get('s');ss.value=S;}
+  fillPages();
+  if(q.get('e')){const i=pages().findIndex(p=>p.edition===q.get('e'));if(i>=0)I=i;}
+  show();
+}
+function pages(){return S==='금융'?M.finance:M.series[S];}
+function fillPages(){
+  const ps=$('#page'); ps.innerHTML='';
+  pages().forEach((p,i)=>ps.add(new Option(`${p.edition}판 · ${p.page}쪽`,i)));
+}
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function show(){
+  const p=pages()[I]; if(!p)return;
+  $('#page').value=I;
+  history.replaceState(null,'',`?s=${encodeURIComponent(S)}&e=${p.edition}`);
+  $('#img').src=p.img||''; $('#guide').style.display='none';
+  $('#meta').textContent=`${S} · ${p.edition}판 ${p.page}쪽 · ${p.table||''}`;
+  const t=$('#vtab');
+  if(S==='금융'){
+    t.innerHTML=`<p><strong>${esc(p.edition)}판 ${esc(p.page)}쪽 — ${esc(p.table)}</strong></p>
+      <p class="small">이 표에서 추출기는 값을 한 행도 뽑지 못했다. 머리글로 읽힌 것은 아래와 같다. 지면과 견주어 <em>왜</em> 실패했는지 생각해 볼 것.</p>
+      <div class="hdr">${esc(p.header)}</div>`;
+    return;
+  }
+  const regions=[...new Set(p.rows.map(r=>r.region))];
+  const blocks=[...new Set(p.rows.map(r=>r.block))];
+  let h=`<div class="hdr"><strong>표머리(기계 판독)</strong>\n${esc(p.header)||'(없음)'}</div>`;
+  h+=`<div class="filter">지역: ${regions.map(r=>`<label><input type="checkbox" class="fr" value="${esc(r)}" checked> ${esc(r)}</label>`).join('')}
+      &nbsp; 블록: ${blocks.map(b=>`<label><input type="checkbox" class="fb" value="${esc(b)}" checked> ${esc(b)}</label>`).join('')}
+      &nbsp; <label><input type="checkbox" id="onlyf"> 플래그만</label></div>`;
+  h+=`<table><thead><tr><th>지역</th><th>블록</th><th>x위치</th><th>원문</th><th>값</th><th>신뢰도</th><th>플래그</th><th>행원문</th></tr></thead><tbody>`;
+  p.rows.forEach((r,i)=>{
+    h+=`<tr data-i="${i}" data-x="${r.x}" data-r="${esc(r.region)}" data-b="${esc(r.block)}" class="${r.flag?'f':''}">
+      <td>${esc(r.region)}</td><td>${esc(r.block)}</td><td>${(+r.x).toFixed(3)}</td><td>${esc(r.raw)}</td><td>${esc(r.value)}</td><td>${esc(r.conf)}</td>
+      <td>${r.flag?`<span class="tag f">${esc(r.flag)}</span>`:''}</td><td class="rt">${esc(r.row_text)}</td></tr>`;
+  });
+  h+=`</tbody></table><p class="small">${p.rows.length}행. 행에 마우스를 올리면 지면에 세로선. 열 이름은 표시하지 않는다.</p>`;
+  t.innerHTML=h;
+  t.querySelectorAll('tbody tr').forEach(tr=>{
+    tr.onmouseenter=()=>{const x=+tr.dataset.x; const g=$('#guide'); g.style.left=(x*100)+'%'; g.style.display='block'; $('#gx').textContent='x='+x.toFixed(2);};
+    tr.onmouseleave=()=>{$('#guide').style.display='none';};
+    tr.onclick=()=>{const st=$('#vimg'); const img=$('#img'); st.scrollLeft=Math.max(0,(+tr.dataset.x)*img.clientWidth-st.clientWidth/2);};
+  });
+  const apply=()=>{
+    const rs=new Set([...t.querySelectorAll('.fr:checked')].map(c=>c.value));
+    const bs=new Set([...t.querySelectorAll('.fb:checked')].map(c=>c.value));
+    const of=$('#onlyf').checked;
+    t.querySelectorAll('tbody tr').forEach(tr=>{tr.style.display=(rs.has(tr.dataset.r)&&bs.has(tr.dataset.b)&&(!of||tr.classList.contains('f')))?'':'none';});
+  };
+  t.querySelectorAll('.fr,.fb,#onlyf').forEach(c=>c.onchange=apply);
+}
+</script>
+</body>
+</html>

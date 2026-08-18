@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>자료 워크숍 — 통계로 지역 변화 읽기</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <p class="kicker">한국사회사 2026-2 · 자료 워크숍 2~4주 (6회)</p>
+  <h1>통계로 지역 변화 읽기</h1>
+  <p class="lead">광주·전남·전국의 통계연감 숫자를 직접 보고, 골라내고, 만져 보고, 사회 변화로 설명한다.</p>
+</header>
+
+<section class="notice">
+  <h2>먼저 읽을 것</h2>
+  <ol>
+    <li><strong>이 데이터는 완성된 자료가 아니다.</strong> 『한국통계연감』 스캔본을 기계로 읽어(OCR) 뽑은 값이며, 어느 숫자가 어느 열에 속하는지 아직 확정되지 않았고 원본과 대조되지 않았다. <strong>다른 과제·글에 인용하지 말 것.</strong> 이 수업 안에서만 쓴다.</li>
+    <li>깨끗하지 않은 것이 이 수업의 교재다. 잘못 읽힌 값·중복 행·빈 자리를 미리 고쳐 두지 않았다. 그것을 찾아 판정하는 일이 과제다.</li>
+    <li>여러분의 산출물은 여러분의 배움으로 완결된다. 교수의 연구에 쓰지 않는다. 쓰게 된다면 별도로 동의를 구하고 이름을 밝힌다.</li>
+    <li>이 페이지는 수강생용 비공개 링크다. 밖으로 옮기지 말 것.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>6회 흐름</h2>
+  <table class="plan">
+    <thead><tr><th>회</th><th>주</th><th>무엇을 하나</th><th>가져올 것</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>2</td><td>숫자를 의심하기 — 한 도시의 숫자 하나로 시작한다</td><td>노트북</td></tr>
+      <tr><td>2</td><td>2</td><td>통계연감이라는 물건 · 실습 A: KOSIS에서 전국·시도 시계열 뽑기</td><td>노트북, 스프레드시트</td></tr>
+      <tr><td>3</td><td>3</td><td>광공업 표 읽기 — 지면과 추출값을 나란히 놓고, 뽑히지 않은 표(금융)는 왜 그런지 본다</td><td>노트북</td></tr>
+      <tr><td>4</td><td>3</td><td>실습 B: 내 시계열 만들기 — 살림/버림/보류 판정, 원본 대조, 없는 해 적기. <strong>중간 제출</strong></td><td>노트북, 스프레드시트</td></tr>
+      <tr><td>5</td><td>4</td><td>일상 사물의 지표 — 내 사물 하나를 세는 숫자를 찾는다. 없으면 없다고 적는다</td><td>노트북</td></tr>
+      <tr><td>6</td><td>4</td><td>설명하기 — 「한 사물, 한 변화, 한 설명」 2매 초안, 짝 리뷰</td><td>초안</td></tr>
+    </tbody>
+  </table>
+  <p class="small">회차 상세와 제출 방식은 수업에서 안내한다. 이 표는 바뀔 수 있다.</p>
+</section>
+
+<section>
+  <h2>자료</h2>
+  <h3>지면 뷰어</h3>
+  <p><a class="btn" href="viewer.html">지면 뷰어 열기 →</a> 통계연감의 실제 쪽 이미지와, 그 쪽에서 기계가 뽑아낸 값을 나란히 본다. 행에 마우스를 올리면 그 값이 지면의 어느 위치에서 왔는지 세로선이 표시된다. <strong>어느 열이 무엇인지는 표시하지 않는다 — 그걸 가리는 것이 여러분의 일이다.</strong></p>
+
+  <h3>내려받기</h3>
+  <table class="files">
+    <thead><tr><th>파일</th><th>내용</th><th>쓰는 회차</th></tr></thead>
+    <tbody>
+      <tr><td><a href="data/광공업_값.csv" download>광공업_값.csv</a></td><td>시·도별 광공업 총괄 표에서 뽑은 값 1,040행 (1972~2016판)</td><td>3·4</td></tr>
+      <tr><td><a href="data/광공업_표머리.csv" download>광공업_표머리.csv</a></td><td>같은 표의 머리글을 기계가 읽은 것 (깨진 부분 있음)</td><td>3·4</td></tr>
+      <tr><td><a href="data/면적_값.csv" download>면적_값.csv</a></td><td>시·도별 면적 및 행정단위 표에서 뽑은 값 859행 (1960~2021판)</td><td>1 (시연)</td></tr>
+      <tr><td><a href="data/면적_표머리.csv" download>면적_표머리.csv</a></td><td>같은 표의 머리글</td><td>1</td></tr>
+      <tr><td><a href="data/금융_headers.csv" download>금융_headers.csv</a> · <a href="data/금융_values.csv" download>금융_values.csv</a></td><td>금융 표는 머리글만 읽히고 <strong>값은 0행</strong>. 왜 그런지는 3회차에</td><td>3</td></tr>
+      <tr><td><a href="data/판정기록_양식.csv" download>판정기록_양식.csv</a></td><td>살림/버림/보류 + 이유 + 없는 해 기록 양식</td><td>4~6</td></tr>
+    </tbody>
+  </table>
+  <p class="small">원본 열 이름(영문) 그대로인 파일도 같은 폴더에 있다: <code>data/광공업_values.csv</code> 등.</p>
+
+  <h3>열 설명</h3>
+  <table class="cols">
+    <tbody>
+      <tr><th>계열</th><td>면적 / 광공업</td></tr>
+      <tr><th>판</th><td>통계연감의 발행 연도. <strong>표 안의 숫자는 보통 그 전해(또는 전전해)의 것</strong>이다. 지면에서 확인할 것</td></tr>
+      <tr><th>쪽</th><td>그 판의 쪽 번호. 뷰어에서 같은 쪽을 볼 수 있다</td></tr>
+      <tr><th>표제목 · 장</th><td>기계가 읽은 표 제목과 장 이름. 판마다 조금씩 다르다 — 그 차이도 자료다</td></tr>
+      <tr><th>블록</th><td>같은 쪽 안의 구획. 면적은 전체/읍면부, 광공업은 광업 및 제조업/광업/제조업 등. <strong>같은 지역이 한 쪽에 여러 번 나온다</strong></td></tr>
+      <tr><th>지역</th><td>전국 / 전남 / 광주. 지면의 이름은 시대마다 다르다(광주시→광주직할시→광주광역시)</td></tr>
+      <tr><th>x위치</th><td>그 값이 지면 가로폭의 어디쯤(0~1)에 있었나. <strong>같은 열이면 x가 비슷하다.</strong> 열을 가르는 실마리</td></tr>
+      <tr><th>원문 · 값</th><td>기계가 읽은 글자 그대로 / 숫자로 바꾼 것. 띄어쓰기·소수점이 유실됐을 수 있다</td></tr>
+      <tr><th>신뢰도</th><td>기계의 자신감(0~1). 낮다고 틀린 것도, 높다고 맞는 것도 아니다</td></tr>
+      <tr><th>플래그</th><td>저신뢰 / 과병합의심(두 숫자가 붙었을 가능성) / 판독불가. 비어 있으면 무표시</td></tr>
+      <tr><th>행원문</th><td>그 값이 들어 있던 줄 전체. 지면과 맞춰 볼 때 쓴다</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>원인을 찾는 곳 (공개 도구)</h2>
+  <ul class="links">
+    <li><a href="https://newslibrary.naver.com/" target="_blank" rel="noopener">네이버 뉴스라이브러리</a> — 1920~1999 신문 지면. 숫자가 꺾인 해에 무슨 일이 있었나</li>
+    <li><a href="https://kosis.kr/" target="_blank" rel="noopener">KOSIS 국가통계포털</a> — 연감이 끊긴 뒤를 잇고, 전국·시도 시계열을 뽑는다 (2·5회 실습)</li>
+    <li><a href="https://www.law.go.kr/" target="_blank" rel="noopener">국가법령정보센터</a> — 행정구역·제도가 바뀐 근거 법령의 원문과 연혁</li>
+  </ul>
+  <p class="small">검색 요령 1쪽은 2회차에 배포한다.</p>
+</section>
+
+<footer>
+  <p>이 페이지는 수업 종료 후 내린다. 문의는 수업 시간 또는 이메일로.</p>
+</footer>
+</body>
+</html>
