@@ -88,11 +88,6 @@ layout: default
   - [디지털 자료 찾기(요약)](common/guides/digital-sources.html)
   - [통계 안내](common/guides/statistics-guide.html)
   - [시드 자료 이용 규칙](common/guides/seed-data-rules.html)
-* 통계연감 자료 워크숍(3주 보조)
-  - [안내](workshop-stats/index.html)
-  - [계열 뷰어](workshop-stats/viewer.html) — 면적·광공업·인구·가구… 지면 + 추출값 + 판정 기록
-  - [표 카탈로그 검색](workshop-stats/catalog.html) — 1952~2021 전 판 표 목록
-  - 인용 불가 상태의 실습 재료(상단 고지 참조)
 
 ## 규칙
 * 리뷰는 수업 전 제출 — 논문의 요점이 무엇이며 의미가 무언지 간략히, 이해 안 되는 곳은 어디인지 적는다. 분량은 중요하지 않다.

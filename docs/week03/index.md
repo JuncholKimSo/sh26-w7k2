@@ -60,7 +60,7 @@ layout: default
 ## 이 주의 자료(교수 제공)
 * [data/01_압축근대_도시화율/](data/01_압축근대_도시화율/) … [data/05_민주주의_투표율/](data/05_민주주의_투표율/) — 교수 시연 5세트(CSV·그림·README: 출처·정제 상태·보여주는 것/못 담는 것)
 * [data/indicator_hints.html](data/indicator_hints.html) — 개념별 지표 힌트표(실습용)
-* [../workshop-stats/index.html](../workshop-stats/index.html) — 통계연감 자료 워크숍: [계열 뷰어](../workshop-stats/viewer.html#%EB%A9%B4%EC%A0%81/1988)(면적·광공업·인구 등 지면+추출값, 인용 불가 상태)와 [표 카탈로그](../workshop-stats/catalog.html)(전 판 표 목록 검색) — 1988년 광주 면적 208→501㎢가 무엇인지 보라
+* 통계연감 자료 워크숍 — [안내](../workshop-stats/index.html) · [계열 뷰어](../workshop-stats/viewer.html)(면적·광공업·인구·가구… 지면 + 추출값 + 판정 기록) · [표 카탈로그 검색](../workshop-stats/catalog.html)(1952~2021 전 판 표 목록). 인용 불가 상태의 실습 재료. 1988년 광주 면적 208→501㎢가 무엇인지 보라
 
 ## 실습 방안
 * **실습 방안(2회차 55분)**
