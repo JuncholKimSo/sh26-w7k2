@@ -3,7 +3,7 @@ title: 한국사회사 2026-2
 layout: default
 ---
 
-# 한국사회사 — 2026학년도 2학기
+# 한국사회사 (2026학년도 2학기)
 
 <p style="text-align:center; font-size:1.25em; margin:1.2em 0;"><strong>자료로 사회를 말하는 연습.</strong></p>
 
