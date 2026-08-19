@@ -9,7 +9,7 @@ layout: default
 
 <p style="text-align:left;">지금 현재 우리 일상은 어떻게 만들어졌는가. 두부의 '신선함', 주민등록증, 아파트, 시험, 시간표, 광장의 발언. 오늘의 사물·제도·감각은 조선·식민지·개발연대·민주화 이후의 지층이 쌓이고 뒤엉켜 만들어졌다. 사회사는 그 지층을 <strong>자료</strong>로 읽는 학문이다.</p>
 
-## 세 개의 주소
+## 중요
 - 📂 **이 페이지** : 모든 수업 자료·주차별 안내·양식·데이터. 계정 없이 열람. → [강의계획서](syllabus.html) · [제출 안내](submit.html)
 - 📚 **강독 논문 묶음 PDF** : 수업의 핵심 텍스트: <https://drive.google.com/file/d/1JTZAFwwQwcZfXESobqQDjXrQjoHmOW_T/view?usp=drive_link> (수업 목적 외 재배포 금지) · [쪽 지도·서지](common/readings.html)
 - 📝 **과제 제출 폼**(모든 과제 공통) : <https://forms.gle/9qDjkpWd9wg7fgbX6>
@@ -38,18 +38,18 @@ layout: default
 | [15](week15/) | 다시, 사회사의 쓸모 돌아보기 | 김원(2005)·강성현 외(2013) · pp.582~661 | **기말 원고 「우리 일상의 미래」** |
 
 ## 평가
-실습 ①(2~4주) 20 · 논문 리뷰 노트(7회, 최저 1회 제외) 30 · 미니 논증(8주, 중간 대체) 10 · 기말 원고 「우리 일상의 미래」(15주) 30 · 출석 10. 자세한 것은 [강의계획서](syllabus.html)와 [제출 안내](submit.html).
+실습 ①(2~4주) 20 · 논문 리뷰(7회, 최저 1회 제외) 30 · 미니 논증(8주, 중간 대체) 10 · 기말 원고 「우리 일상의 미래」(15주) 30 · 출석 10. 자세한 것은 [강의계획서](syllabus.html)와 [제출 안내](submit.html).
 
 ## 자료 이용 원칙 5개조
 하나의 DB에 의존하지 말 것 · 키워드 검색의 한계 · **자료의 부재도 자료이다** · 온라인 검색은 출발점 · 분류체계와 생산 맥락을 함께 읽을 것 → [자세히](common/guides/digital-sources.html). 데이터마다 출처·수정일·정제 상태·이용 범위를 적는다.
 
 ## 공통 자료
 - [강독 논문 목록·묶음 쪽 지도](common/readings.html) · [참고도서·참고문헌](common/bibliography.html) · [개념 지도](common/concept-map.html)
-- 양식: [리뷰 노트](common/templates/review-note.html) · [미니 논증](common/templates/mini-argument.html) · [아카이빙 계획서](common/templates/archiving-plan.html) · [기말 원고](common/templates/final-paper.html)
+- 양식: [리뷰](common/templates/review-note.html) · [미니 논증](common/templates/mini-argument.html) · [아카이빙 계획서](common/templates/archiving-plan.html) · [기말 원고](common/templates/final-paper.html)
 - 안내: [디지털 자료 찾기(요약)](common/guides/digital-sources.html) · [통계 안내](common/guides/statistics-guide.html) · [시드 자료 이용 규칙](common/guides/seed-data-rules.html)
 - 3주 보조: [통계연감 자료 워크숍](workshop-stats/index.html) — [계열 뷰어](workshop-stats/viewer.html)(면적·광공업·인구·가구… 지면+추출값+판정 기록)와 [표 카탈로그 검색](workshop-stats/catalog.html)(1952~2025 전 판 표 목록). 인용 불가 상태의 실습 재료, 상단 고지 참조.
 
 ## 규칙
-리뷰 노트는 수업 전 제출 · 간략하게 이 논문의 요점이 무엇이며, 의미가 무언지 적는다. 특히 이해가 안 되는 경우 어디가 이해 안 되는지 적는다. 분량은 중요하지 않다. · AI 사용 내역 명시 · 광장 자료는 수업 목적으로만 사용 가능. → [강의계획 요약](syllabus.html)
+리뷰는 수업 전 제출 · 간략하게 이 논문의 요점이 무엇이며, 의미가 무언지 적는다. 특히 이해가 안 되는 경우 어디가 이해 안 되는지 적는다. 분량은 중요하지 않다. · AI 사용 내역 명시 · 광장 자료는 수업 목적으로만 사용 가능. → [강의계획 요약](syllabus.html)
 
 *이 페이지는 학기 중 상황에 따라 바뀔 수 있다. 강의 담당: 소준철(전남대 전남광주인문사회연구원). junchol.kim.so@gmail.com *
