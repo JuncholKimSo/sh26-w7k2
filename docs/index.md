@@ -14,7 +14,7 @@ layout: default
 - 📚 **강독 논문 묶음 PDF** : 수업의 핵심 텍스트: <https://drive.google.com/file/d/1JTZAFwwQwcZfXESobqQDjXrQjoHmOW_T/view?usp=drive_link> (수업 목적 외 재배포 금지) · [쪽 지도·서지](common/readings.html)
 - 📝 **과제 제출 폼**(모든 과제 공통) : <https://forms.gle/9qDjkpWd9wg7fgbX6>
 
-## 15주
+## 계획
 * 주차를 누르면 주차별 안내로 이동
 * 주차별 안내는 수업 노트와 동일함
 * 중요한 건 읽기자료임
