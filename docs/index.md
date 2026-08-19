@@ -10,8 +10,8 @@ layout: default
 <p style="text-align:left;">지금 현재 우리 일상은 어떻게 만들어졌는가. 두부의 '신선함', 주민등록증, 아파트, 시험, 시간표, 광장의 발언. 오늘의 사물·제도·감각은 조선·식민지·개발연대·민주화 이후의 지층이 쌓이고 뒤엉켜 만들어졌다. 사회사는 그 지층을 <strong>자료</strong>로 읽는 학문이다.</p>
 
 ## 중요
-- 📂 **이 페이지** : 모든 수업 자료·주차별 안내·양식·데이터. 계정 없이 열람. → [강의계획서](syllabus.html) · [제출 안내](submit.html)
-- 📚 **강독 논문 묶음 PDF** : 수업의 핵심 텍스트: <https://drive.google.com/file/d/1JTZAFwwQwcZfXESobqQDjXrQjoHmOW_T/view?usp=drive_link> (수업 목적 외 재배포 금지) · [쪽 지도·서지](common/readings.html)
+- 📂 **계획** : 모든 수업 자료·주차별 안내·양식·데이터. 계정 없이 열람. → [강의계획서](syllabus.html) · [제출 안내](submit.html)
+- 📚 **수업 자료** : 수업의 핵심 텍스트: <https://drive.google.com/file/d/1JTZAFwwQwcZfXESobqQDjXrQjoHmOW_T/view?usp=drive_link> (수업 목적 외 재배포 금지) · [쪽 지도·서지](common/readings.html)
 - 📝 **과제 제출 폼**(모든 과제 공통) : <https://forms.gle/9qDjkpWd9wg7fgbX6>
 
 ## 계획
