@@ -69,6 +69,9 @@ layout: default
 * [data/source_list_template.csv](data/source_list_template.csv) — 반 공동 자료 목록 양식(자료 5건 기입용)
 * [data/seed/](data/seed/) — 시드 자료 정제본(4주 1회차에 게시; 규칙 [../common/guides/seed-data-rules.html](../common/guides/seed-data-rules.html))
 * [data/paired_sources.md](data/paired_sources.md) — 공식/비공식 사료 대조 짝(유신헌법 조문 vs 박완서 문장 등)
+* [디지털 자료 찾기(요약)](../common/guides/digital-sources.html) — 4주 본체
+* [시드 자료 이용 규칙](../common/guides/seed-data-rules.html)
+* [아카이빙 계획서 양식](../common/templates/archiving-plan.html)
 
 ## 실습 방안
 * **실습 방안**

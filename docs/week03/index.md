@@ -12,7 +12,7 @@ layout: default
 
 ## 읽을 것
 * 박명규·서호철(2003), 『식민권력과 통계』 — 발췌("통계는 어디서 왔나")
-* [../common/guides/statistics-guide.html](../common/guides/statistics-guide.html) — 조사통계/보고통계·표준분류·KOSIS 경로
+* [통계 안내](../common/guides/statistics-guide.html) — 조사통계/보고통계·표준분류·KOSIS 경로
 
 ## 수업의 순서 (100분 × 2회)
 * **1회차**

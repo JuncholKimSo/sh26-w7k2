@@ -27,6 +27,9 @@ layout: default
   - 상호 독해(30)
   - 학기 회고(25)
 
+## 양식
+* [기말 원고 「우리 일상의 미래」 요건](../common/templates/final-paper.html)
+
 ## 과제
 * **기말 원고 「우리 일상의 미래」** — 2회차 폼 + 출력본 1부
 * 학기 마무리: 격자 사진은 [../common/grid/](../common/grid/)에 보존. 성적 문의는 이메일

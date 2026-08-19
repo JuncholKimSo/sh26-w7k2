@@ -75,19 +75,10 @@ layout: default
 하나의 DB에 의존하지 말 것 · 키워드 검색의 한계 · **자료의 부재도 자료이다** · 온라인 검색은 출발점 · 분류체계와 생산 맥락을 함께 읽을 것 → [자세히](common/guides/digital-sources.html). 데이터마다 출처·수정일·정제 상태·이용 범위를 적는다.
 
 ## 공통 자료
-* 강독
-  - [강독 논문 목록·묶음 PDF 쪽 지도](common/readings.html)
-  - [참고도서·참고문헌](common/bibliography.html)
-  - [개념 지도](common/concept-map.html)
-* 양식
-  - [리뷰](common/templates/review-note.html)
-  - [미니 논증](common/templates/mini-argument.html)
-  - [아카이빙 계획서](common/templates/archiving-plan.html)
-  - [기말 원고](common/templates/final-paper.html)
-* 안내
-  - [디지털 자료 찾기(요약)](common/guides/digital-sources.html)
-  - [통계 안내](common/guides/statistics-guide.html)
-  - [시드 자료 이용 규칙](common/guides/seed-data-rules.html)
+* [강독 논문 목록·묶음 PDF 쪽 지도](common/readings.html)
+* [참고도서·참고문헌](common/bibliography.html)
+* [리뷰 양식](common/templates/review-note.html) — 5~7·9~12주 매주
+* 주차별 자료(개념 지도·통계 안내·자료 찾기·시드 규칙·양식·데이터)는 각 주 페이지에
 
 ## 규칙
 * 리뷰는 수업 전 제출 — 논문의 요점이 무엇이며 의미가 무언지 간략히, 이해 안 되는 곳은 어디인지 적는다. 분량은 중요하지 않다.
