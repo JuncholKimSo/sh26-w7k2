@@ -11,7 +11,7 @@ layout: default
 
 ## 읽을 것
 - 이신철(2011) 「독립협회와 만민공동회의 '근대성' 논의 검토」 — 묶음 pp.554~581 (1회차)
-- 소준철, 「누가 광장에서 말하는가」(교수 에세이 배포판 — 이 폴더에 게시 예정) (2회차)
+- 소준철(2026) 「누가 광장에서 말하는가」 — 교수 에세이 배포판(이 폴더에 게시 예정) (2회차)
 - 강독 논문 묶음 PDF: <https://drive.google.com/file/d/1JTZAFwwQwcZfXESobqQDjXrQjoHmOW_T/view?usp=drive_link> · [쪽 지도](../common/readings.html)
 
 ## 수업의 순서 (100분 × 2회)
