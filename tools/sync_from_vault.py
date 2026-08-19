@@ -28,7 +28,7 @@ LINKMAP = {
     "강독 논문 목록": "../common/readings.html",
     "참고도서 — 사회사·역사사회학 방법론 단행본": "../common/bibliography.html",
     "개념 지도 — 한국사회사의 주된 개념들": "../common/concept-map.html",
-    "강의계획서 (학생 배포용)": "../syllabus.html",
+    "강의계획서 (학생 배포용)": "../",
     "_사회사 MOC": "../",
 }
 
