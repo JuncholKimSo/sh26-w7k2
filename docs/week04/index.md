@@ -2,7 +2,7 @@
 title: "04주 — 자료는 어디에 있고, 무엇을 가져와 어떻게 쌓는가"
 layout: default
 ---
-[← 수업 홈](../) · [자세한 안내문 →](handout.html) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
+[← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
 # 4주 — 자료는 어디에 있고, 무엇을 가져와 어떻게 쌓는가
 
@@ -83,4 +83,3 @@ layout: default
 * **실습 ① 4주분 「자료 찾아 컬렉션 만들기」**: 자료 5건(공동 자료 목록 양식) + 못 찾은 것 1건 + 해석 한 단락 + 아카이빙 계획서 → 폼
 * 5주 준비: 강독 시작 — 박명규(2001) pp.2~34 · 조계원(2016) pp.35~65. **리뷰 첫 제출**(양식 [../common/templates/review-note.html](../common/templates/review-note.html)), 1회차 수업 전
 
-* 세부 진행·개념·주요 발췌·더 읽을 거리·참고문헌: [자세한 안내문](handout.html)

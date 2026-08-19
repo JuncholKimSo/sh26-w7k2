@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""볼트 배포문서 v2 → docs/weekNN/handout.md 이식. (weekNN/index.md 는 짧은 안내 — 손으로 쓴다)
+"""[2026-08-19 사용자 결정: handout(안내문 전문)은 웹에 싣지 않고 인쇄물로 따로 배포 → --week/--all 이식은 기본 비활성. 필요 시 --handout 플래그로만.]
+볼트 배포문서 v2 → docs/weekNN/handout.md 이식. (weekNN/index.md 는 짧은 안내 — 손으로 쓴다)
 
 사용:
   python3 tools/sync_from_vault.py --week 05        # 한 주
@@ -118,8 +119,10 @@ def sync_misc(force=False):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--week"); ap.add_argument("--all", action="store_true")
-    ap.add_argument("--force", action="store_true"); ap.add_argument("--misc", action="store_true")
+    ap.add_argument("--force", action="store_true"); ap.add_argument("--misc", action="store_true"); ap.add_argument("--handout", action="store_true", help="handout 이식 허용(기본 비활성)")
     a = ap.parse_args()
+    if (a.week or a.all) and not a.handout:
+        print("handout 이식은 비활성(인쇄물 배포). --handout 을 붙이면 실행."); a.week=None; a.all=False
     if a.week: sync_week(a.week.zfill(2), a.force)
     if a.all:
         for w in [f"{i:02d}" for i in range(1, 16)]: sync_week(w, a.force)

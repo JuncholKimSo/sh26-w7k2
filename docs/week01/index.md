@@ -2,7 +2,7 @@
 title: "01주 — 오리엔테이션 · 두부 한 모로 여는 사회사"
 layout: default
 ---
-[← 수업 홈](../) · [자세한 안내문 →](handout.html) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
+[← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
 # 1주 — 오리엔테이션 · 두부 한 모로 여는 사회사
 
@@ -24,7 +24,6 @@ layout: default
   - 이 수업은 무엇을 하는가(GitHub·묶음 PDF·폼 제출·평가)
 
 ## 과제
-* 다음 주(2주) 안내문 2절 「개념」을 훑어 온다
+* 다음 주(2주) 인쇄물 안내문 2절 「개념」을 훑어 온다(수업에서 배포)
 * 이 페이지 접속·묶음 PDF 수령 확인. KOSIS(kosis.kr) 계정은 3주 전까지
 
-* 세부 진행·개념·주요 발췌·더 읽을 거리·참고문헌: [자세한 안내문](handout.html)

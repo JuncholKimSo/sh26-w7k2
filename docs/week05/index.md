@@ -2,7 +2,7 @@
 title: "05주 — 강독① 사회: '사회'라는 말은 어디서 왔는가"
 layout: default
 ---
-[← 수업 홈](../) · [자세한 안내문 →](handout.html) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
+[← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
 # 5주 — 강독① 사회: '사회'라는 말은 어디서 왔는가
 
@@ -32,4 +32,3 @@ layout: default
 * 리뷰(두 논문) — 1회차 수업 전 폼
 * 6주 준비: 김상준(2007) pp.66~105 · 김백영(2006) pp.106~150
 
-* 세부 진행·개념·주요 발췌·더 읽을 거리·참고문헌: [자세한 안내문](handout.html)

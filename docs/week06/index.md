@@ -2,7 +2,7 @@
 title: "06주 — 강독② 근대성: 근대성은 하나인가"
 layout: default
 ---
-[← 수업 홈](../) · [자세한 안내문 →](handout.html) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
+[← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
 # 6주 — 강독② 근대성: 근대성은 하나인가
 
@@ -30,4 +30,3 @@ layout: default
 * 리뷰 — 1회차 수업 전 폼
 * 7주 준비: 이용기(2009) pp.151~194 · 조은(1993) pp.195~226
 
-* 세부 진행·개념·주요 발췌·더 읽을 거리·참고문헌: [자세한 안내문](handout.html)

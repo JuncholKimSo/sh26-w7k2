@@ -2,7 +2,7 @@
 title: "02주 — 한국사회사는 무엇을 물어왔는가"
 layout: default
 ---
-[← 수업 홈](../) · [자세한 안내문 →](handout.html) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
+[← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
 # 2주 — 한국사회사는 무엇을 물어왔는가
 
@@ -11,7 +11,7 @@ layout: default
 * 지도는 정답이 아니라 좌표계다.
 
 ## 읽을 것
-* 이 주 안내문(handout) 2절 「개념」 — 개조식 개념·대표 문헌. 강독 묶음은 아직 안 편다
+* 2주 인쇄물 안내문 2절 「개념」 — 개조식 개념·대표 문헌(수업에서 배포). 강독 묶음은 아직 안 편다
 * 김백영 외(2016) 4장 김민환·박명규 「한국 사회사 연구의 형성과 발전」 — 발췌
 * 강독 논문 묶음 PDF: <https://drive.google.com/file/d/1JTZAFwwQwcZfXESobqQDjXrQjoHmOW_T/view?usp=drive_link> · [쪽 지도](../common/readings.html)
 
@@ -62,4 +62,3 @@ layout: default
 * **실습 ① 2주분 「개념 격자 만들기」**: 격자 사진 1장 + 여백 질문 한 줄("내 일상의 사물 하나는 이 격자 어디에 놓이는가") → 폼
 * 3주 준비: KOSIS 계정, 카드 20장 중 3주에 통계로 다시 볼 개념 하나 정하기, 노트북 지참
 
-* 세부 진행·개념·주요 발췌·더 읽을 거리·참고문헌: [자세한 안내문](handout.html)

@@ -2,7 +2,7 @@
 title: "07주 — 강독③ 조선: 과거는 우리에게 어떤 흔적을 남겼나"
 layout: default
 ---
-[← 수업 홈](../) · [자세한 안내문 →](handout.html) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
+[← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
 # 7주 — 강독③ 조선: 과거는 우리에게 어떤 흔적을 남겼나
 
@@ -29,4 +29,3 @@ layout: default
 * 리뷰 — 1회차 수업 전 폼
 * **8주 미니 논증**(중간 대체): 5~7주 6편 중 1편의 논증을 다른 대상에 적용, A4 2매 — 8주 1회차 시작 시 폼+출력본. 양식 [../common/templates/mini-argument.html](../common/templates/mini-argument.html)
 
-* 세부 진행·개념·주요 발췌·더 읽을 거리·참고문헌: [자세한 안내문](handout.html)

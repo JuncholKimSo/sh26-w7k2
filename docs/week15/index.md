@@ -2,7 +2,7 @@
 title: "15주 — 다시, 사회사의 쓸모 돌아보기"
 layout: default
 ---
-[← 수업 홈](../) · [자세한 안내문 →](handout.html) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
+[← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
 # 15주 — 다시, 사회사의 쓸모 돌아보기
 
@@ -31,4 +31,3 @@ layout: default
 * **기말 원고 「우리 일상의 미래」** — 2회차 폼 + 출력본 1부
 * 학기 마무리: 격자 사진은 [../common/grid/](../common/grid/)에 보존. 성적 문의는 이메일
 
-* 세부 진행·개념·주요 발췌·더 읽을 거리·참고문헌: [자세한 안내문](handout.html)

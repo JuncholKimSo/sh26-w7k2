@@ -2,7 +2,7 @@
 title: "13주 — 단행본 함께 읽기 ①"
 layout: default
 ---
-[← 수업 홈](../) · [자세한 안내문 →](handout.html) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
+[← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
 # 13주 — 단행본 함께 읽기 ①
 
@@ -22,4 +22,3 @@ layout: default
 ## 과제
 * 14주 경과 발표 준비: 주제·자료 5건 이상·자료의 부재·강독 논문 연결(A4 1매)
 
-* 세부 진행·개념·주요 발췌·더 읽을 거리·참고문헌: [자세한 안내문](handout.html)

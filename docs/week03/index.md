@@ -2,7 +2,7 @@
 title: "03주 — 개념을 세어 보고 그려 보기"
 layout: default
 ---
-[← 수업 홈](../) · [자세한 안내문 →](handout.html) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
+[← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
 # 3주 — 개념을 세어 보고 그려 보기
 
@@ -76,4 +76,3 @@ layout: default
 * **실습 ① 3주분 「시각화와 설명하기」**: 그림 1장 + 변곡점 표시 + 문장 3개("보여주는 것 / 못 담는 것 / 다른 지표를 고르면") → 폼
 * 4주 준비: 자료 찾기 가이드(「역사·사회 연구를 위한 디지털 자료 찾기」)([../common/guides/digital-sources.html](../common/guides/digital-sources.html))를 읽어 온다. 노트북 지참
 
-* 세부 진행·개념·주요 발췌·더 읽을 거리·참고문헌: [자세한 안내문](handout.html)
