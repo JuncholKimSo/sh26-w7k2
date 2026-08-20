@@ -80,10 +80,10 @@ layout: default
   - 4주 「자료 찾아 컬렉션 만들기」: 컬렉션 작성과 설명 ([양식](common/templates/archiving-plan.html))
 * 논문 리뷰 (5~7·9~12주): **수업 시작 전 월요일 밤 22시까지**
   - 강독 논문 각각: 요점·의미·이해 안 되는 곳 ([양식](common/templates/review-note.html))
-* 미니 논증 (8주, 중간 대체) : **제출 기한 미정** 
-  - 강독 논문 1편의 논증을 다른 대상에 적용, A4 2매 ([양식](common/templates/mini-argument.html))
-* 기말 원고 「우리 일상의 미래」 (15주) **제출 기한 미정**
-  - A4 4~5매, 시드 + 직접 확보 자료 + 강독 논문 2편 이상 ([양식](common/templates/final-paper.html))
+* 미니 논증 (13주차까지 1회) : **세부 제출 기한 미정**
+  - 강독 대상 논문 1편의 논증을 다른 대상에 적용, A4 3매 내외 ([양식](common/templates/mini-argument.html))
+* 기말시험 (15주) : **세부 기한·형식 미정**
+  - 교수가 제공하는 데이터를 사회사의 방법론과 시각으로 재해석하기 ([안내](common/templates/final-paper.html))
 
 ### 공통 사항
 * 파일명: `학번_이름_NN주_과제명.pdf` (예: `20260000_홍길동_05주_리뷰.pdf`). PDF 권장.경우에 따라 XLSX로 제출. 
