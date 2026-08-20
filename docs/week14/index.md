@@ -19,9 +19,9 @@ layout: default
   - 경과 발표(1인 5분) + 반 공동 자료 목록 최종 점검
 
 ## 양식
-* [기말 원고 「우리 일상의 미래」 요건](../common/templates/final-paper.html)
+* [기말시험 안내](../common/templates/final-paper.html)
 
 ## 과제
 * **발표** (14주 2회차) — 발표 자료는 폼
-* 15주 준비: 김원(2005) pp.582~610 · 강성현 외(2013) pp.611~661 · **기말 원고** 마무리(양식 [../common/templates/final-paper.html](../common/templates/final-paper.html))
+* 15주 준비: 김원(2005) pp.582~610 · 강성현 외(2013) pp.611~661 · **기말시험** 준비(양식 [../common/templates/final-paper.html](../common/templates/final-paper.html))
 

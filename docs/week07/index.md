@@ -23,9 +23,9 @@ layout: default
 * **2회차**
   - 함께 읽기(호적 4,814가구, 단위가 결론을 바꾼다)
   - 짝의 긴장 토론
-  - 격자·**8주 미니 논증 안내**
+  - 격자·**미니 논증 안내**
 
 ## 과제
 * 리뷰 — 1회차 수업 전 폼
-* **8주 미니 논증**(중간 대체): 5~7주 6편 중 1편의 논증을 다른 대상에 적용, A4 2매 — 8주 1회차 시작 시 폼+출력본. 양식 [../common/templates/mini-argument.html](../common/templates/mini-argument.html)
+* **미니 논증**(13주차까지 1회, 15점): 강독 대상 논문 1편의 논증을 다른 대상에 적용, A4 3매 내외 — 폼 제출. [양식](../common/templates/mini-argument.html)
 
