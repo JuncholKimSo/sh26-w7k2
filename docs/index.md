@@ -10,8 +10,8 @@ layout: default
 <p style="text-align:left;">지금 현재 우리 일상은 어떻게 만들어졌는가. 두부의 '신선함', 주민등록증, 아파트, 시험, 시간표, 광장의 발언. 오늘의 사물·제도·감각은 조선·식민지·개발연대·민주화 이후의 지층이 쌓이고 뒤엉켜 만들어졌다. 사회사는 그 지층을 <strong>자료</strong>로 읽는 학문이다.</p>
 
 ## 중요
-- 📂 **계획** : 모든 수업 자료·주차별 안내·양식·데이터. 계정 없이 열람. · [강의 일정(날짜·휴강·마감)](schedule.html)
-- 📚 **수업 자료** : 수업의 핵심 텍스트: <https://drive.google.com/file/d/1JTZAFwwQwcZfXESobqQDjXrQjoHmOW_T/view?usp=drive_link> (수업 목적 외 재배포 금지) · [쪽 지도·서지](common/readings.html)
+- 📂 **계획** : 모든 수업 자료·주차별 안내·양식·데이터. 계정 없이 열람. · [강의 일정(날짜·휴강·마감)](https://juncholkimso.github.io/sh26-w7k2/schedule.html)
+- 📚 **수업 자료** : 수업의 핵심 텍스트: <https://drive.google.com/file/d/1JTZAFwwQwcZfXESobqQDjXrQjoHmOW_T/view?usp=drive_link> (수업 목적 외 재배포 금지) · [쪽 지도·서지](https://juncholkimso.github.io/sh26-w7k2/common/readings.html)
 - 📝 **과제 제출 폼**(모든 과제 공통) : <https://forms.gle/9qDjkpWd9wg7fgbX6>
 
 ## 계획
@@ -26,21 +26,21 @@ layout: default
 
 | 주 | 주제 | 읽을 것 (묶음 PDF 쪽) | 제출 |
 |---|---|---|---|
-| 1 | [오리엔테이션 · 두부 한 모로 여는 사회사](week01/) | — | — |
-| 2 | [한국사회사는 무엇을 물어왔는가](week02/) | - | 개념 격자 만들기 (실습①) |
-| 3 | [개념을 세어 보고 그려 보기](week03/) | 『식민권력과 통계』, KOSIS | 시각화와 설명하기 (실습①) |
-| 4 | [자료는 어디에 있고, 무엇을 가져와 어떻게 쌓는가](week04/) | 자료 찾기 가이드·김백영 외 7장 | 자료 찾아 컬렉션 만들기 (실습①) |
-| 5 | [강독① 사회: '사회'라는 말은 어디서 왔는가](week05/) | 박명규(2001) ↔ 조계원(2016) · pp.2~65 | 리뷰 |
-| 6 | [강독② 근대성: 근대성은 하나인가](week06/) | 김상준(2007) ↔ 김백영(2006) · pp.66~150 | 리뷰 |
-| 7 | [강독③ 조선: 과거는 우리에게 어떤 흔적을 남겼나](week07/) | 이용기(2009) ↔ 조은(1993) · pp.151~226 | 리뷰 |
-| 8 | [미니 논증 워크숍 · 자료 수집 중간 점검](week08/) | 강독 없음 | — |
-| 9 | [강독④ 발전: 발전은 어떻게 우리를 바꾸었나](week09/) | 백승욱·이지원(2015) ↔ 정무용(2017) · pp.227~304 | 리뷰 |
-| 10 | [강독⑤ 복지·보호: 복지와 '보호'는 우리에게 늘 옳은가](week10/) | 정근식·주윤정(2013) ↔ 김일환(2021) + 소준철(2020) · pp.305~426 | 리뷰 |
-| 11 | [강독⑥ 광주: 지역은 어떻게 발전하였고, 우리는 그것을 어떻게 기억하는가](week11/) | 박명규(1988) ↔ 홍성흡(2013) / 최정기(2020) + 정근식(2002 발췌) · pp.427~553 | 리뷰 |
-| 12 | [강독⑦ 민주주의: 누가 광장에서 말할 수 있(었)는가](week12/) | 이신철(2011) pp.554~581 ↔ 소준철(2026) | 리뷰 |
-| 13 | [단행본 함께 읽기 ①](week13/) | "비상시의 아카이브" | **미니 논증**(13주차까지) |
-| 14 | [단행본 함께 읽기 ②](week14/) | "비상시의 아카이브" | - |
-| 15 | [다시, 사회사의 쓸모 돌아보기](week15/) | 김원(2005)·강성현 외(2013) · pp.582~661 | **기말시험** |
+| 1 | [오리엔테이션 · 두부 한 모로 여는 사회사](https://juncholkimso.github.io/sh26-w7k2/week01/) | — | — |
+| 2 | [한국사회사는 무엇을 물어왔는가](https://juncholkimso.github.io/sh26-w7k2/week02/) | - | 개념 격자 만들기 (실습①) |
+| 3 | [개념을 세어 보고 그려 보기](https://juncholkimso.github.io/sh26-w7k2/week03/) | 『식민권력과 통계』, KOSIS | 시각화와 설명하기 (실습①) |
+| 4 | [자료는 어디에 있고, 무엇을 가져와 어떻게 쌓는가](https://juncholkimso.github.io/sh26-w7k2/week04/) | 자료 찾기 가이드·김백영 외 7장 | 자료 찾아 컬렉션 만들기 (실습①) |
+| 5 | [강독① 사회: '사회'라는 말은 어디서 왔는가](https://juncholkimso.github.io/sh26-w7k2/week05/) | 박명규(2001) ↔ 조계원(2016) · pp.2~65 | 리뷰 |
+| 6 | [강독② 근대성: 근대성은 하나인가](https://juncholkimso.github.io/sh26-w7k2/week06/) | 김상준(2007) ↔ 김백영(2006) · pp.66~150 | 리뷰 |
+| 7 | [강독③ 조선: 과거는 우리에게 어떤 흔적을 남겼나](https://juncholkimso.github.io/sh26-w7k2/week07/) | 이용기(2009) ↔ 조은(1993) · pp.151~226 | 리뷰 |
+| 8 | [미니 논증 워크숍 · 자료 수집 중간 점검](https://juncholkimso.github.io/sh26-w7k2/week08/) | 강독 없음 | — |
+| 9 | [강독④ 발전: 발전은 어떻게 우리를 바꾸었나](https://juncholkimso.github.io/sh26-w7k2/week09/) | 백승욱·이지원(2015) ↔ 정무용(2017) · pp.227~304 | 리뷰 |
+| 10 | [강독⑤ 복지·보호: 복지와 '보호'는 우리에게 늘 옳은가](https://juncholkimso.github.io/sh26-w7k2/week10/) | 정근식·주윤정(2013) ↔ 김일환(2021) + 소준철(2020) · pp.305~426 | 리뷰 |
+| 11 | [강독⑥ 광주: 지역은 어떻게 발전하였고, 우리는 그것을 어떻게 기억하는가](https://juncholkimso.github.io/sh26-w7k2/week11/) | 박명규(1988) ↔ 홍성흡(2013) / 최정기(2020) + 정근식(2002 발췌) · pp.427~553 | 리뷰 |
+| 12 | [강독⑦ 민주주의: 누가 광장에서 말할 수 있(었)는가](https://juncholkimso.github.io/sh26-w7k2/week12/) | 이신철(2011) pp.554~581 ↔ 소준철(2026) | 리뷰 |
+| 13 | [단행본 함께 읽기 ①](https://juncholkimso.github.io/sh26-w7k2/week13/) | "비상시의 아카이브" | **미니 논증**(13주차까지) |
+| 14 | [단행본 함께 읽기 ②](https://juncholkimso.github.io/sh26-w7k2/week14/) | "비상시의 아카이브" | - |
+| 15 | [다시, 사회사의 쓸모 돌아보기](https://juncholkimso.github.io/sh26-w7k2/week15/) | 김원(2005)·강성현 외(2013) · pp.582~661 | **기말시험** |
 
 ## 평가 (100)
 
@@ -77,27 +77,27 @@ layout: default
 * 실습: (2·3·4주): 각 주차 종료 후 
   - 2주 「개념 격자 만들기」: 격자 1장 + 한계 설명하기 
   - 3주 「시각화와 설명하기」: 그림 1장 + 셜명하기 
-  - 4주 「자료 찾아 컬렉션 만들기」: 컬렉션 작성과 설명 ([양식](common/templates/archiving-plan.html))
+  - 4주 「자료 찾아 컬렉션 만들기」: 컬렉션 작성과 설명 ([양식](https://juncholkimso.github.io/sh26-w7k2/common/templates/archiving-plan.html))
 * 논문 리뷰 (5~7·9~12주): **수업 시작 전 월요일 밤 22시까지**
-  - 강독 논문 각각: 요점·의미·이해 안 되는 곳 ([양식](common/templates/review-note.html))
+  - 강독 논문 각각: 요점·의미·이해 안 되는 곳 ([양식](https://juncholkimso.github.io/sh26-w7k2/common/templates/review-note.html))
 * 미니 논증 (13주차까지 1회) : **세부 제출 기한 미정**
-  - 강독 대상 논문 1편의 논증을 다른 대상에 적용, A4 3매 내외 ([양식](common/templates/mini-argument.html))
+  - 강독 대상 논문 1편의 논증을 다른 대상에 적용, A4 3매 내외 ([양식](https://juncholkimso.github.io/sh26-w7k2/common/templates/mini-argument.html))
 * 기말시험 (15주) : **세부 기한·형식 미정**
-  - 교수가 제공하는 데이터를 사회사의 방법론과 시각으로 재해석하기 ([안내](common/templates/final-paper.html))
+  - 교수가 제공하는 데이터를 사회사의 방법론과 시각으로 재해석하기 ([안내](https://juncholkimso.github.io/sh26-w7k2/common/templates/final-paper.html))
 
 ### 공통 사항
 * 파일명: `학번_이름_NN주_과제명.pdf` (예: `20260000_홍길동_05주_리뷰.pdf`). PDF 권장.경우에 따라 XLSX로 제출. 
 * 지각 제출은 감점, 리뷰 미제출 1회는 최저 1회 제외로 흡수.
-* 인용: 출처·접속일 명기. 시드 자료는 정제본만, 발언 ID로 인용, 재식별 금지 ([시드 자료 규칙](common/guides/seed-data-rules.html)).
+* 인용: 출처·접속일 명기. 시드 자료는 정제본만, 발언 ID로 인용, 재식별 금지 ([시드 자료 규칙](https://juncholkimso.github.io/sh26-w7k2/common/guides/seed-data-rules.html)).
 * 문의: 수업 후 또는 이메일.
 
 ## 자료 이용 원칙 5개조
-하나의 DB에 의존하지 말 것 · 키워드 검색의 한계 · **자료의 부재도 자료이다** · 온라인 검색은 출발점 · 분류체계와 생산 맥락을 함께 읽을 것 → [자세히](common/guides/digital-sources.html). 데이터마다 출처·수정일·정제 상태·이용 범위를 적는다.
+하나의 DB에 의존하지 말 것 · 키워드 검색의 한계 · **자료의 부재도 자료이다** · 온라인 검색은 출발점 · 분류체계와 생산 맥락을 함께 읽을 것 → [자세히](https://juncholkimso.github.io/sh26-w7k2/common/guides/digital-sources.html). 데이터마다 출처·수정일·정제 상태·이용 범위를 적는다.
 
 ## 공통 자료
-* [읽기 자료](common/readings.html)
-* [참고도서·참고문헌](common/bibliography.html)
-* [리뷰 양식](common/templates/review-note.html) — 5~7·9~12주 매주
+* [읽기 자료](https://juncholkimso.github.io/sh26-w7k2/common/readings.html)
+* [참고도서·참고문헌](https://juncholkimso.github.io/sh26-w7k2/common/bibliography.html)
+* [리뷰 양식](https://juncholkimso.github.io/sh26-w7k2/common/templates/review-note.html) — 5~7·9~12주 매주
 * 주차별 자료(개념 지도·통계 안내·자료 찾기·시드 규칙·양식·데이터)는 각 주 페이지에
 
 ## 규칙
