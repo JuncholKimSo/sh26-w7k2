@@ -21,5 +21,6 @@ layout: default
   - 이 수업은 무엇을 하는가(GitHub·묶음 PDF·폼 제출·평가)
 
 ## 과제
+* **사전 설문**(수업 인식·기대, 5분, 성적 무반영): <https://forms.gle/ApQYaCet98b8DTSg8>
 * 이 페이지 접속·수업 자료 확인
 
