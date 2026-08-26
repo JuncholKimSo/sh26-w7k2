@@ -1,10 +1,10 @@
 ---
-title: "14주 — 단행본 함께 읽기 ②"
+title: "14주: 단행본 함께 읽기 ②"
 layout: default
 ---
 [← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
-# 14주 — 단행본 함께 읽기 ②
+# 14주: 단행본 함께 읽기 ②
 
 ## 질문
 * 자료가 말하게 한 것 하나 / 자료가 없어서 못 말한 것 하나.
@@ -22,6 +22,6 @@ layout: default
 * [기말시험 안내](../common/templates/final-paper.html)
 
 ## 과제
-* **발표** (14주 2회차) — 발표 자료는 폼
+* **발표** (14주 2회차): 발표 자료는 폼
 * 15주 준비: 김원(2005) pp.582~610 · 강성현 외(2013) pp.611~661 · **기말시험** 준비(양식 [../common/templates/final-paper.html](../common/templates/final-paper.html))
 

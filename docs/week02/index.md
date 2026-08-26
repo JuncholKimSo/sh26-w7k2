@@ -1,10 +1,10 @@
 ---
-title: "02주 — 한국사회사는 무엇을 물어왔는가"
+title: "02주: 한국사회사는 무엇을 물어왔는가"
 layout: default
 ---
 [← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
-# 2주 — 한국사회사는 무엇을 물어왔는가
+# 2주: 한국사회사는 무엇을 물어왔는가
 
 ## 질문
 * 한국사회사는 무엇을 물었는가 
@@ -49,7 +49,7 @@ layout: default
 격자: 시간축(조선 후기 / 식민지 / 해방~개발연대 / 민주화 이후~현재) × 스케일축(글로벌 / 국가 / 지역 / 신체·일상). [A3 원판](../common/grid/grid_A3.html) · [카드 CSV](data/concept_cards.csv)
 
 ## 이 주의 자료(교수 제공)
-* [excerpts.html](excerpts.html) — 개념별 원문 발췌 29편(참고)
+* [excerpts.html](excerpts.html): 개념별 원문 발췌 29편(참고)
 
 ## 과제
 * 흥미로운 개념 하나를 골라 관련된 논문을 찾아 읽기. 논문을 읽고 든 질문 1개 이상. 

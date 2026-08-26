@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive">
-<title>표 카탈로그 — 자료 워크숍</title>
+<title>표 카탈로그: 자료 워크숍</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="catalog">
@@ -26,21 +26,21 @@
 </div>
 <div class="cmode">
   <label><input type="radio" name="mode" value="rows" checked> 행 목록</label>
-  <label><input type="radio" name="mode" value="group"> 제목별 묶기 — 같은(비슷한) 제목이 어느 판에 있는지</label>
+  <label><input type="radio" name="mode" value="group"> 제목별 묶기: 같은(비슷한) 제목이 어느 판에 있는지</label>
   <label style="margin-left:auto"><input type="checkbox" id="onlyv"> 뷰어 있는 것만</label>
 </div>
 <p class="cnt" id="cnt">불러오는 중…</p>
 <div style="overflow-x:auto"><table class="cres"><thead id="th"></thead><tbody id="tb"></tbody></table></div>
 <p class="small" id="more"></p>
 
-<footer><p>제목 정규화: 앞의 번호, 공백, 가운뎃점·괄호 안 연도 등을 지운 뒤 비교한다. 정규화가 지나쳐 다른 표가 묶이거나, 표기가 달라 같은 표가 갈릴 수 있다 — 그것도 확인해야 할 자료다.</p></footer>
+<footer><p>제목 정규화: 앞의 번호, 공백, 가운뎃점·괄호 안 연도 등을 지운 뒤 비교한다. 정규화가 지나쳐 다른 표가 묶이거나, 표기가 달라 같은 표가 갈릴 수 있다: 그것도 확인해야 할 자료다.</p></footer>
 <script>
 'use strict';
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let CAT=null, ROWS=[], VMAP={}, M=null;
 const LIMIT=400;
-const norm=s=>String(s).replace(/^\s*[\d\-\.]+\s*[\.\)]?\s*/,'').replace(/[\(（][^\)）]*\d{2,4}[^\)）]*[\)）]/g,'').replace(/[:：]\s*\d{4}.*$/,'').replace(/[\s·ㆍ・,\.\(\)（）:：\/、\-—~〜\[\]「」『』'"]/g,'').toLowerCase();
+const norm=s=>String(s).replace(/^\s*[\d\-\.]+\s*[\.\)]?\s*/,'').replace(/[\(（][^\)）]*\d{2,4}[^\)）]*[\)）]/g,'').replace(/[:：]\s*\d{4}.*$/,'').replace(/[\s·ㆍ・,\.\(\)（）:：\/、\--~〜\[\]「」『』'"]/g,'').toLowerCase();
 Promise.all([fetch('catalog.json').then(r=>r.json()),fetch('manifest.json').then(r=>r.json())]).then(([c,m])=>{CAT=c;M=m;init();});
 
 function init(){
@@ -68,7 +68,7 @@ function run(){
   if(mode==='rows'){
     th.innerHTML='<tr><th>판</th><th>장</th><th>표번호</th><th>제목</th><th>쪽</th><th>분류</th><th></th></tr>';
     tb.innerHTML=rs.slice(0,LIMIT).map(r=>`<tr><td>${r.e}</td><td>${esc(r.ch)}</td><td>${esc(r.tn)}</td><td class="t">${esc(r.t)}</td><td class="pg">${r.pg}</td><td class="small">${esc(r.c)}</td><td class="lk">${vlink(r)}${kosis(r.t)}</td></tr>`).join('');
-    $('#cnt').textContent=`${rs.length.toLocaleString()}건`+(rs.length>LIMIT?` 중 앞 ${LIMIT}건 표시 — 조건을 좁힐 것`:'');
+    $('#cnt').textContent=`${rs.length.toLocaleString()}건`+(rs.length>LIMIT?` 중 앞 ${LIMIT}건 표시: 조건을 좁힐 것`:'');
   }else{
     const g={};
     rs.forEach(r=>{(g[r.n]=g[r.n]||{n:r.n,rows:[],eds:new Set(),t:{}}).rows.push(r);g[r.n].eds.add(r.en);g[r.n].t[r.t]=(g[r.n].t[r.t]||0)+1;});
@@ -79,7 +79,7 @@ function run(){
       const eds=[...x.eds].sort((a,b)=>a-b);
       return `<tr class="g" data-i="${i}"><td class="t">${esc(top)}</td><td>${x.eds.size}</td><td class="eds">${ranges(eds)}</td><td>${Object.keys(x.t).length}</td></tr>`;
     }).join('');
-    $('#cnt').textContent=`${rs.length.toLocaleString()}건 → 제목 묶음 ${gs.length.toLocaleString()}개`+(gs.length>LIMIT?` 중 앞 ${LIMIT}개 표시`:'')+' — 행을 누르면 판별 목록을 편다';
+    $('#cnt').textContent=`${rs.length.toLocaleString()}건 → 제목 묶음 ${gs.length.toLocaleString()}개`+(gs.length>LIMIT?` 중 앞 ${LIMIT}개 표시`:'')+': 행을 누르면 판별 목록을 편다';
     tb.querySelectorAll('tr.g').forEach(tr=>tr.onclick=()=>{
       const nx=tr.nextElementSibling; if(nx&&nx.classList.contains('sub')){nx.remove();return;}
       const x=gs[+tr.dataset.i];

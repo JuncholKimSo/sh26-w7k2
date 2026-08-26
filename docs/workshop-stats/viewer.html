@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive">
-<title>계열 뷰어 — 자료 워크숍</title>
+<title>계열 뷰어: 자료 워크숍</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="viewer">
@@ -41,7 +41,7 @@ function init(){
   const ss=$('#series');
   for(const k of Object.keys(M.series)){
     const s=M.series[k];
-    ss.add(new Option(s.failed?`${k} (값 0행 — 실패 표본)`:`${k} (${s.editions[0]}~${s.editions[s.editions.length-1]}판)`,k));
+    ss.add(new Option(s.failed?`${k} (값 0행: 실패 표본)`:`${k} (${s.editions[0]}~${s.editions[s.editions.length-1]}판)`,k));
   }
   ss.onchange=()=>{load(ss.value,0);};
   $('#prev').onclick=()=>{if(I>0){I--;show();}};
@@ -101,7 +101,7 @@ function show(){
   $('#meta').textContent=`${S} · ${p.edition}판 ${p.page}쪽 · ${p.table||''}`;
   const t=$('#vtab');
   if(D.failed){
-    t.innerHTML=`<p><strong>${esc(p.edition)}판 ${esc(p.page)}쪽 — ${esc(p.table)}</strong></p>
+    t.innerHTML=`<p><strong>${esc(p.edition)}판 ${esc(p.page)}쪽: ${esc(p.table)}</strong></p>
       <p class="small">이 표에서 추출기는 값을 한 행도 뽑지 못했다. 머리글로 읽힌 것은 아래와 같다. 지면과 견주어 <em>왜</em> 실패했는지 생각해 볼 것.</p>
       <div class="hdr">${esc(p.header)}</div>`;
     return;
@@ -111,7 +111,7 @@ function show(){
   const regions=[...new Set(R.map(r=>r.region))];
   const blocks=[...new Set(R.map(r=>r.block))];
   let h=`<h4>표머리 (기계 판독)</h4><div class="hdr">${esc(p.header)||'(없음)'}</div>`;
-  h+=`<h4>계열 시계열 (같은 열순번 또는 x구간의 값을 판별로 이어 본다 — 열 이름은 표시하지 않는다)</h4><div class="chartbox" id="chart"></div>`;
+  h+=`<h4>계열 시계열 (같은 열순번 또는 x구간의 값을 판별로 이어 본다: 열 이름은 표시하지 않는다)</h4><div class="chartbox" id="chart"></div>`;
   h+=`<h4>이 쪽의 추출 행 ${R.length}개</h4>`;
   h+=`<div class="filter">지역: ${regions.map(r=>`<label><input type="checkbox" class="fr" value="${esc(r)}" checked> ${esc(r)}</label>`).join('')}
       <br>블록: ${blocks.map(b=>`<label><input type="checkbox" class="fb" value="${esc(b)}" checked> ${esc(b)}</label>`).join('')}
@@ -130,7 +130,7 @@ function show(){
       <td class="rt">${esc(r.row_text)}</td></tr>`;
   });
   h+=`</tbody></table><p class="small">행에 마우스를 올리면 지면에 세로선, 클릭하면 그 x위치로 지면을 밀어 준다. 같은 열이면 x가 비슷하다.</p>`;
-  h+=`<div class="jpanel"><strong>판정 기록</strong> <span id="jcnt"></span> — 이 브라우저에만 저장된다(localStorage).
+  h+=`<div class="jpanel"><strong>판정 기록</strong> <span id="jcnt"></span>: 이 브라우저에만 저장된다(localStorage).
       <button id="jexp">CSV 내보내기</button><button id="jclr">모두 지우기</button>
       <div class="small">내보낸 CSV는 <a href="data/판정기록_양식.csv" download>판정기록_양식.csv</a>와 같은 열 + 수정값 열. 대조한 원본 칸은 판·쪽으로 채워 둔다.</div></div>`;
   t.innerHTML=h;
