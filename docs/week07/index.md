@@ -15,5 +15,4 @@ layout: default
 
 ## 과제
 * 리뷰: 1회차 수업 전 폼
-* **미니 논증**(13주차까지 1회, 15점): 강독 대상 논문 1편의 논증을 다른 대상에 적용, A4 3매 내외: 폼 제출. [양식](../common/templates/mini-argument.html)
 
