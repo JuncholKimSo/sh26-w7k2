@@ -6,3 +6,4 @@ raw/
 # 논문 원문 PDF는 저작권상 넣지 않는다(예외는 !로 명시)
 *.pdf
 !docs/common/grid/*.pdf
+!docs/week*/data/*.pdf
