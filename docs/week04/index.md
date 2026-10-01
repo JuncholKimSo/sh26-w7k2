@@ -23,24 +23,11 @@ layout: default
 
 목록 파일: [db_directory.csv](data/db_directory.csv) · 원칙: [디지털 자료 찾기](../common/guides/digital-sources.html)
 
-## 자료 메모 예시 (공동 자료 목록 한 줄)
-
-| 주제(시드 ID) | 자료명 | 유형 | DB | 생산 기관·시기 | 핵심 내용 | 내 주제와의 관계 | 의문 |
-|---|---|---|---|---|---|---|---|
-| S-0231 월세 | 「임대차보호법」 제정 관보 | 법령 | 법령·관보 | 국회/법제처 · 1981-03-05 | 최초 제정 조문: 임차인 보호 범위 | 광장 발언의 '집' 문제의 제도적 기원 | 왜 1981년인가 |
-
-양식: [source_list_template.csv](data/source_list_template.csv) · 대조 짝: [paired_sources](data/paired_sources.html)
-
 ## 이 주의 자료(교수 제공)
 * [data/db_directory.csv](data/db_directory.csv): 자료 분류 목록 42곳(이름·URL·시기·유형·팁)
-* [data/source_list_template.csv](data/source_list_template.csv): 반 공동 자료 목록 양식(자료 5건 기입용)
 * [data/seed/](data/seed/): 시드 자료 정제본(4주 1회차에 게시; 규칙 [../common/guides/seed-data-rules.html](../common/guides/seed-data-rules.html))
 * [data/paired_sources.md](data/paired_sources.md): 공식/비공식 사료 대조 짝(유신헌법 조문 vs 박완서 문장 등)
 * [디지털 자료 찾기(요약)](../common/guides/digital-sources.html): 4주 본체
 * [시드 자료 이용 규칙](../common/guides/seed-data-rules.html)
 * [아카이빙 계획서 양식](../common/templates/archiving-plan.html)
-
-## 과제
-* **실습 ① 4주분 「자료 찾아 컬렉션 만들기」**: 자료 5건(공동 자료 목록 양식) + 못 찾은 것 1건 + 해석 한 단락 + 아카이빙 계획서 → 폼
-* 5주 준비: 강독 시작: 박명규(2001) pp.2~34 · 조계원(2016) pp.35~65. **리뷰 첫 제출**(양식 [../common/templates/review-note.html](../common/templates/review-note.html)), 1회차 수업 전
 
