@@ -83,59 +83,85 @@ layout: default
 > "식민지시기 조선에서 실시된 근대적 인구조사는 크게 두 줄기로 나뉜다. 그 하나는 호구조사다. (…) 두 번째 계열은 국세조사, 곧 센서스이다. / 오늘날의 학자들이 국세조사의 인구측정치를 훨씬 더 정확한 것으로 평가하는 데 반해, 당시의 여러 문헌들과 특히 조선총독부의 행정에서는 오히려 국세조사인구를 무시하고 매년 집계되었던 '현주호구' 쪽을 선호하는 경향이 뚜렷하였다." (66·118~119쪽)
 
 ## 자료 분류
-* **법령·관보** (국가가 사회를 관리하려 한 틀)
-  - [국가법령정보센터](https://www.law.go.kr/): 현행~폐지 연혁 · 법률>시행령>시행규칙 위계. 연혁 검색으로 제정·개정 추적
-  - [국립중앙도서관 관보](https://www.nl.go.kr/NL/contents/N20301000000.do): 구한국·조선총독부·미군정
-  - [국가기록원 관보](https://theme.archives.go.kr/next/gazette/viewIntroduction01.do): 1948~2000
-  - [대한민국 전자관보](https://gwanbo.go.kr/main.do): 2001~ · 지자체는 시보
-* **통계** (무엇을 세고 무엇을 안 셌나)
-  - [KOSIS 국가통계포털](https://kosis.kr/): 1949~ · 국가승인통계 통합. 시점·분류 조정 후 다운로드
-  - [통계청](https://kostat.go.kr/): 총조사 원자료·보고서
-  - [매디슨 프로젝트](https://www.rug.nl/ggdc/historicaldevelopment/maddison/): 장기 · 원자료 없는 구간은 추계: 주의
-* **공간** (장소의 역사)
-  - [국토정보플랫폼](https://map.ngii.go.kr/mn/mainPage.do)
-  - [서울 항공사진](https://map.seoul.go.kr/smgis2/divisionMap): 1972~
-  - [부산 항공사진](http://lifemap.busan.go.kr/): 1972~
-  - [대구 항공사진](https://airmap.daegu.go.kr/airmap/public/map.do): 1972~
-  - [규장각 고지도](https://kyudb.snu.ac.kr/main.do?mid=GZD): 전근대
-  - [지적아카이브](https://theme.archives.go.kr/next/acreage/viewMain.do): 1910~1918 · 조선토지조사사업
-  - [인터넷등기소](https://www.iros.go.kr/): 권리관계(사법). 현황은 정부24 토지·건축물대장(행정)
-* **공문서** (국가의 기록)
-  - [국가기록원](https://www.archives.go.kr/): 기관명으로 먼저 검색. 키워드만으로는 한계
-  - [대통령기록관](https://www.pa.go.kr/)
-  - [국무회의록](https://theme.archives.go.kr/next/cabinet/keywordDetailSearch.do)
-  - [e영상역사관](http://www.ehistory.go.kr/): 대한뉴스·문화영화
-  - [한국근현대영상아카이브](http://kfilm.khistory.org/): 고려대 한국사연구소
-  - [서울기록원](https://archives.seoul.go.kr/): 정보공개청구 활용
-  - [서울도서관](https://lib.seoul.go.kr/): 기록원(과정)과 함께 볼 것
-  - [서울역사아카이브](https://museum.seoul.go.kr/archive/NR_index.do)
-  - [서울시의회 회의록](https://ms.smc.seoul.kr/): 1961~1991 공백 · 공백 자체가 자료
-* **언론** (시대의 목소리)
-  - [국립중앙도서관 신문 아카이브](https://nl.go.kr/newspaper/): 1880~1966
-  - [한국역사정보통합시스템 신문](http://www.koreanhistory.or.kr/newsPaper.do): 1896~1963
-  - [네이버 뉴스라이브러리](https://newslibrary.naver.com/): 1920~1999 · 동아·조선·경향·매경·한겨레
-  - [빅카인즈](https://www.bigkinds.or.kr/): 1990~
-  - [부산일보 지면보기](https://www.busan.com/): 1946~
-  - [국제신문](https://www.kookje.co.kr/): 1947~ · 로그인 후 지면 PDF 열람
-* **생활사** (보통 사람들의 기록)
-  - [e뮤지엄](http://www.emuseum.go.kr/)
-  - [대한민국역사박물관 디지털아카이브](http://archive.much.go.kr/): 근현대
-  - [근대기록문화아카이브](https://modern.koreastudy.or.kr/): 1910~1970년대 · 일상 사진 풍부
-  - [지방문화원 자료](https://www.nculture.org/res/resourcesList.do)
-  - [민주화운동 오픈아카이브](https://archives.kdemo.or.kr/): 해방 후
-  - [한국학 데이터베이스](http://aks.koreaa2z.com/): 1953~1980 · 사상계·씨알의 소리
-  - [5·18기록관](https://www.518archives.go.kr/): 1980~ · 11주 광주
-* **기초·학술** (한국사 기본 DB와 논문)
-  - [한국사데이터베이스](http://db.history.go.kr/): 국사편찬위
-  - [한국학 디지털 아카이브](http://yoksa.aks.ac.kr/)
-  - [규장각 원문검색](https://kyudb.snu.ac.kr/)
-  - [동북아역사넷](http://contents.nahf.or.kr/)
-  - [RISS](https://www.riss.kr/): 논문도 사료
-  - [KCI](https://www.kci.go.kr/)
 
-목록 파일: [db_directory.csv](data/db_directory.csv)
+<details>
+<summary><strong>법령·관보</strong> (국가가 사회를 관리하려 한 틀)</summary>
+<ul>
+<li><a href="https://www.law.go.kr/">국가법령정보센터</a>: 현행~폐지 연혁 · 법률&gt;시행령&gt;시행규칙 위계. 연혁 검색으로 제정·개정 추적</li>
+<li><a href="https://www.nl.go.kr/NL/contents/N20301000000.do">국립중앙도서관 관보</a>: 구한국·조선총독부·미군정</li>
+<li><a href="https://theme.archives.go.kr/next/gazette/viewIntroduction01.do">국가기록원 관보</a>: 1948~2000</li>
+<li><a href="https://gwanbo.go.kr/main.do">대한민국 전자관보</a>: 2001~ · 지자체는 시보</li>
+</ul>
+</details>
+<details>
+<summary><strong>통계</strong> (무엇을 세고 무엇을 안 셌나)</summary>
+<ul>
+<li><a href="https://kosis.kr/">KOSIS 국가통계포털</a>: 1949~ · 국가승인통계 통합. 시점·분류 조정 후 다운로드</li>
+<li><a href="https://kostat.go.kr/">통계청</a>: 총조사 원자료·보고서</li>
+<li><a href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/">매디슨 프로젝트</a>: 장기 · 원자료 없는 구간은 추계: 주의</li>
+</ul>
+</details>
+<details>
+<summary><strong>공간</strong> (장소의 역사)</summary>
+<ul>
+<li><a href="https://map.ngii.go.kr/mn/mainPage.do">국토정보플랫폼</a></li>
+<li><a href="https://map.seoul.go.kr/smgis2/divisionMap">서울 항공사진</a>: 1972~</li>
+<li><a href="http://lifemap.busan.go.kr/">부산 항공사진</a>: 1972~</li>
+<li><a href="https://airmap.daegu.go.kr/airmap/public/map.do">대구 항공사진</a>: 1972~</li>
+<li><a href="https://kyudb.snu.ac.kr/main.do?mid=GZD">규장각 고지도</a>: 전근대</li>
+<li><a href="https://theme.archives.go.kr/next/acreage/viewMain.do">지적아카이브</a>: 1910~1918 · 조선토지조사사업</li>
+<li><a href="https://www.iros.go.kr/">인터넷등기소</a>: 권리관계(사법). 현황은 정부24 토지·건축물대장(행정)</li>
+</ul>
+</details>
+<details>
+<summary><strong>공문서</strong> (국가의 기록)</summary>
+<ul>
+<li><a href="https://www.archives.go.kr/">국가기록원</a>: 기관명으로 먼저 검색. 키워드만으로는 한계</li>
+<li><a href="https://www.pa.go.kr/">대통령기록관</a></li>
+<li><a href="https://theme.archives.go.kr/next/cabinet/keywordDetailSearch.do">국무회의록</a></li>
+<li><a href="http://www.ehistory.go.kr/">e영상역사관</a>: 대한뉴스·문화영화</li>
+<li><a href="http://kfilm.khistory.org/">한국근현대영상아카이브</a>: 고려대 한국사연구소</li>
+<li><a href="https://archives.seoul.go.kr/">서울기록원</a>: 정보공개청구 활용</li>
+<li><a href="https://lib.seoul.go.kr/">서울도서관</a>: 기록원(과정)과 함께 볼 것</li>
+<li><a href="https://museum.seoul.go.kr/archive/NR_index.do">서울역사아카이브</a></li>
+<li><a href="https://ms.smc.seoul.kr/">서울시의회 회의록</a>: 1961~1991 공백 · 공백 자체가 자료</li>
+</ul>
+</details>
+<details>
+<summary><strong>언론</strong> (시대의 목소리)</summary>
+<ul>
+<li><a href="https://nl.go.kr/newspaper/">국립중앙도서관 신문 아카이브</a>: 1880~1966</li>
+<li><a href="http://www.koreanhistory.or.kr/newsPaper.do">한국역사정보통합시스템 신문</a>: 1896~1963</li>
+<li><a href="https://newslibrary.naver.com/">네이버 뉴스라이브러리</a>: 1920~1999 · 동아·조선·경향·매경·한겨레</li>
+<li><a href="https://www.bigkinds.or.kr/">빅카인즈</a>: 1990~</li>
+<li><a href="https://www.busan.com/">부산일보 지면보기</a>: 1946~</li>
+<li><a href="https://www.kookje.co.kr/">국제신문</a>: 1947~ · 로그인 후 지면 PDF 열람</li>
+</ul>
+</details>
+<details>
+<summary><strong>생활사</strong> (보통 사람들의 기록)</summary>
+<ul>
+<li><a href="http://www.emuseum.go.kr/">e뮤지엄</a></li>
+<li><a href="http://archive.much.go.kr/">대한민국역사박물관 디지털아카이브</a>: 근현대</li>
+<li><a href="https://modern.koreastudy.or.kr/">근대기록문화아카이브</a>: 1910~1970년대 · 일상 사진 풍부</li>
+<li><a href="https://www.nculture.org/res/resourcesList.do">지방문화원 자료</a></li>
+<li><a href="https://archives.kdemo.or.kr/">민주화운동 오픈아카이브</a>: 해방 후</li>
+<li><a href="http://aks.koreaa2z.com/">한국학 데이터베이스</a>: 1953~1980 · 사상계·씨알의 소리</li>
+<li><a href="https://www.518archives.go.kr/">5·18기록관</a>: 1980~ · 11주 광주</li>
+</ul>
+</details>
+<details>
+<summary><strong>기초·학술</strong> (한국사 기본 DB와 논문)</summary>
+<ul>
+<li><a href="http://db.history.go.kr/">한국사데이터베이스</a>: 국사편찬위</li>
+<li><a href="http://yoksa.aks.ac.kr/">한국학 디지털 아카이브</a></li>
+<li><a href="https://kyudb.snu.ac.kr/">규장각 원문검색</a></li>
+<li><a href="http://contents.nahf.or.kr/">동북아역사넷</a></li>
+<li><a href="https://www.riss.kr/">RISS</a>: 논문도 사료</li>
+<li><a href="https://www.kci.go.kr/">KCI</a></li>
+</ul>
+</details>
 
 ## 이 주의 자료(교수 제공)
 * [시연 5세트](../week03/data/01_%EC%95%95%EC%B6%95%EA%B7%BC%EB%8C%80_%EB%8F%84%EC%8B%9C%ED%99%94%EC%9C%A8/) (CSV·그림·README) · [지표 힌트표](../week03/data/indicator_hints.html)
 * 통계연감 자료 워크숍: [계열 뷰어](../workshop-stats/viewer.html) · [표 카탈로그](../workshop-stats/catalog.html)
-* [자료 분류 목록 42곳](data/db_directory.html) (이름·URL·시기·유형·팁 · [CSV](data/db_directory.csv))
