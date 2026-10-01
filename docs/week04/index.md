@@ -9,8 +9,14 @@ layout: default
 **회차·날짜**: 9~10회 · 10/6(화) · 10/8(목)
 
 ## 읽을 것
-* 자료 찾기 가이드(「역사·사회 연구를 위한 디지털 자료 찾기」): [../common/guides/digital-sources.html](../common/guides/digital-sources.html)
 * 김백영 외(2016) 7장 서호철 「사회사/역사사회학의 자료와 그 이용」
+
+## 원칙
+1. 하나의 DB에 의존하지 말 것 — 법령·통계·공문서·신문을 교차해야 입체가 선다.
+2. 키워드 검색의 한계 — 과거 문서는 지금과 다른 말을 썼다. 기관·시기·문서 유형을 조합한다.
+3. **자료의 부재도 자료이다** — 통계가 없는 시기, 회의록의 공백, 신문 정간 자체가 맥락이다.
+4. 온라인 검색은 출발점 — 방문 열람, 정보공개청구, 사서와의 소통.
+5. 분류체계와 생산 맥락을 함께 읽을 것 — 통계 항목·기록물 분류·법령 위계가 당대 국가의 세계관이다.
 
 ## 자료 분류
 * 법령·관보: [국가법령정보센터](https://www.law.go.kr/) · [국립중앙도서관 관보](https://www.nl.go.kr/NL/contents/N20301000000.do) · [국가기록원 관보](https://theme.archives.go.kr/next/gazette/viewIntroduction01.do) · [대한민국 전자관보](https://gwanbo.go.kr/main.do)
@@ -21,13 +27,12 @@ layout: default
 * 생활사: [e뮤지엄](http://www.emuseum.go.kr/) · [대한민국역사박물관 디지털아카이브](http://archive.much.go.kr/) · [근대기록문화아카이브](https://modern.koreastudy.or.kr/) · [지방문화원 자료](https://www.nculture.org/res/resourcesList.do) · [민주화운동 오픈아카이브](https://archives.kdemo.or.kr/) · [한국학 데이터베이스](http://aks.koreaa2z.com/) · [5·18기록관](https://www.518archives.go.kr/)
 * 기초·학술: [한국사데이터베이스](http://db.history.go.kr/) · [한국학 디지털 아카이브](http://yoksa.aks.ac.kr/) · [규장각 원문검색](https://kyudb.snu.ac.kr/) · [동북아역사넷](http://contents.nahf.or.kr/) · [RISS](https://www.riss.kr/) · [KCI](https://www.kci.go.kr/)
 
-목록 파일: [db_directory.csv](data/db_directory.csv) · 원칙: [디지털 자료 찾기](../common/guides/digital-sources.html)
+목록 파일: [db_directory.csv](data/db_directory.csv)
 
 ## 이 주의 자료(교수 제공)
 * [data/db_directory.csv](data/db_directory.csv): 자료 분류 목록 42곳(이름·URL·시기·유형·팁)
 * [data/seed/](data/seed/): 시드 자료 정제본(4주 1회차에 게시; 규칙 [../common/guides/seed-data-rules.html](../common/guides/seed-data-rules.html))
 * [data/paired_sources.md](data/paired_sources.md): 공식/비공식 사료 대조 짝(유신헌법 조문 vs 박완서 문장 등)
-* [디지털 자료 찾기(요약)](../common/guides/digital-sources.html): 4주 본체
 * [시드 자료 이용 규칙](../common/guides/seed-data-rules.html)
 * [아카이빙 계획서 양식](../common/templates/archiving-plan.html)
 
