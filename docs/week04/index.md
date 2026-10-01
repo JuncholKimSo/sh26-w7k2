@@ -1,15 +1,39 @@
 ---
-title: "04주: 자료는 어디에 있고, 무엇을 가져와 어떻게 쌓는가"
+title: "통계·자료 워크숍 (8~10회)"
 layout: default
 ---
 [← 수업 홈](../) · [제출 폼](https://forms.gle/9qDjkpWd9wg7fgbX6)
 
-# 4주: 자료는 어디에 있고, 무엇을 가져와 어떻게 쌓는가
+# 통계로 재점검 · 자료 워크숍
 
-**회차·날짜**: 9~10회 · 10/6(화) · 10/8(목)
+**회차·날짜**: 8~10회 · 10/1(목) 통계 · 10/6(화)·10/8(목) 자료
 
 ## 읽을 것
+* 박명규·서호철(2003), 『식민권력과 통계』 발췌
+* [통계 안내](../common/guides/statistics-guide.html)
 * 김백영 외(2016) 7장 서호철 「사회사/역사사회학의 자료와 그 이용」
+
+## 통계로 재점검 (8회, 10/1): 시연 다섯 자리
+
+### 압축근대 → 도시인구 비율 (한·일·영, 1960~2024)
+![압축근대 → 도시인구 비율 (한·일·영, 1960~2024)](../week03/data/01_%EC%95%95%EC%B6%95%EA%B7%BC%EB%8C%80_%EB%8F%84%EC%8B%9C%ED%99%94%EC%9C%A8/chart.png)
+* 데이터·출처: [`01_압축근대_도시화율/`](../week03/data/01_%EC%95%95%EC%B6%95%EA%B7%BC%EB%8C%80_%EB%8F%84%EC%8B%9C%ED%99%94%EC%9C%A8/) (CSV·README)
+
+### 발전 → 1인당 GDP (한·일, 반로그축)
+![발전 → 1인당 GDP (한·일, 반로그축)](../week03/data/02_%EB%B0%9C%EC%A0%84_1%EC%9D%B8%EB%8B%B9GDP/chart_log.png)
+* 데이터·출처: [`02_발전_1인당GDP/`](../week03/data/02_%EB%B0%9C%EC%A0%84_1%EC%9D%B8%EB%8B%B9GDP/) (CSV·README)
+
+### 가족 → 합계출산율 (한·일, 1960~2024)
+![가족 → 합계출산율 (한·일, 1960~2024)](../week03/data/03_%EA%B0%80%EC%A1%B1_%EC%B6%9C%EC%82%B0%EC%9C%A8/chart.png)
+* 데이터·출처: [`03_가족_출산율/`](../week03/data/03_%EA%B0%80%EC%A1%B1_%EC%B6%9C%EC%82%B0%EC%9C%A8/) (CSV·README)
+
+### 지역 → 수도권 인구 비중 (1970~2024, 추계인구 기준)
+![지역 → 수도권 인구 비중 (1970~2024, 추계인구 기준)](../week03/data/04_%EC%A7%80%EC%97%AD_%EC%88%98%EB%8F%84%EA%B6%8C%EC%A7%91%EC%A4%91/chart.png)
+* 데이터·출처: [`04_지역_수도권집중/`](../week03/data/04_%EC%A7%80%EC%97%AD_%EC%88%98%EB%8F%84%EA%B6%8C%EC%A7%91%EC%A4%91/) (CSV·README)
+
+### 민주주의 → 대선·총선 투표율 (1948~2025, 2차 자료·검증 필요)
+![민주주의 → 대선·총선 투표율 (1948~2025, 2차 자료·검증 필요)](../week03/data/05_%EB%AF%BC%EC%A3%BC%EC%A3%BC%EC%9D%98_%ED%88%AC%ED%91%9C%EC%9C%A8/chart.png)
+* 데이터·출처: [`05_민주주의_투표율/`](../week03/data/05_%EB%AF%BC%EC%A3%BC%EC%A3%BC%EC%9D%98_%ED%88%AC%ED%91%9C%EC%9C%A8/) (CSV·README)
 
 ## 원칙
 1. **하나의 DB에 의존하지 말 것**
@@ -30,6 +54,8 @@ layout: default
 목록 파일: [db_directory.csv](data/db_directory.csv)
 
 ## 이 주의 자료(교수 제공)
+* [시연 5세트](../week03/data/01_%EC%95%95%EC%B6%95%EA%B7%BC%EB%8C%80_%EB%8F%84%EC%8B%9C%ED%99%94%EC%9C%A8/) (CSV·그림·README) · [지표 힌트표](../week03/data/indicator_hints.html)
+* 통계연감 자료 워크숍: [계열 뷰어](../workshop-stats/viewer.html) · [표 카탈로그](../workshop-stats/catalog.html)
 * [data/db_directory.csv](data/db_directory.csv): 자료 분류 목록 42곳(이름·URL·시기·유형·팁)
 * [data/seed/](data/seed/): 시드 자료 정제본(4주 1회차에 게시; 규칙 [../common/guides/seed-data-rules.html](../common/guides/seed-data-rules.html))
 * [data/paired_sources.md](data/paired_sources.md): 공식/비공식 사료 대조 짝(유신헌법 조문 vs 박완서 문장 등)
