@@ -12,20 +12,20 @@ layout: default
 * 김백영 외(2016) 7장 서호철 「사회사/역사사회학의 자료와 그 이용」
 
 ## 원칙
-1. 하나의 DB에 의존하지 말 것 — 법령·통계·공문서·신문을 교차해야 입체가 선다.
-2. 키워드 검색의 한계 — 과거 문서는 지금과 다른 말을 썼다. 기관·시기·문서 유형을 조합한다.
-3. **자료의 부재도 자료이다** — 통계가 없는 시기, 회의록의 공백, 신문 정간 자체가 맥락이다.
-4. 온라인 검색은 출발점 — 방문 열람, 정보공개청구, 사서와의 소통.
-5. 분류체계와 생산 맥락을 함께 읽을 것 — 통계 항목·기록물 분류·법령 위계가 당대 국가의 세계관이다.
+1. **하나의 DB에 의존하지 말 것**
+2. **키워드 검색의 한계를 인식할 것**
+3. **자료의 부재도 자료이다**
+4. **온라인 검색은 출발점**
+5. **분류체계와 생산 맥락을 함께 읽을 것**
 
 ## 자료 분류
-* 법령·관보: [국가법령정보센터](https://www.law.go.kr/) · [국립중앙도서관 관보](https://www.nl.go.kr/NL/contents/N20301000000.do) · [국가기록원 관보](https://theme.archives.go.kr/next/gazette/viewIntroduction01.do) · [대한민국 전자관보](https://gwanbo.go.kr/main.do)
-* 통계: [KOSIS 국가통계포털](https://kosis.kr/) · [통계청](https://kostat.go.kr/) · [매디슨 프로젝트](https://www.rug.nl/ggdc/historicaldevelopment/maddison/)
-* 공간: [국토정보플랫폼](https://map.ngii.go.kr/mn/mainPage.do) · [서울 항공사진](https://map.seoul.go.kr/smgis2/divisionMap) · [부산 항공사진](http://lifemap.busan.go.kr/) · [대구 항공사진](https://airmap.daegu.go.kr/airmap/public/map.do) · [규장각 고지도](https://kyudb.snu.ac.kr/main.do?mid=GZD) · [지적아카이브](https://theme.archives.go.kr/next/acreage/viewMain.do) · [인터넷등기소](https://www.iros.go.kr/)
-* 공문서: [국가기록원](https://www.archives.go.kr/) · [대통령기록관](https://www.pa.go.kr/) · [국무회의록](https://theme.archives.go.kr/next/cabinet/keywordDetailSearch.do) · [e영상역사관](http://www.ehistory.go.kr/) · [한국근현대영상아카이브](http://kfilm.khistory.org/) · [서울기록원](https://archives.seoul.go.kr/) · [서울도서관](https://lib.seoul.go.kr/) · [서울역사아카이브](https://museum.seoul.go.kr/archive/NR_index.do) · [서울시의회 회의록](https://ms.smc.seoul.kr/)
-* 언론: [국립중앙도서관 신문 아카이브](https://nl.go.kr/newspaper/) · [한국역사정보통합시스템 신문](http://www.koreanhistory.or.kr/newsPaper.do) · [네이버 뉴스라이브러리](https://newslibrary.naver.com/) · [빅카인즈](https://www.bigkinds.or.kr/) · [부산일보 지면보기](https://www.busan.com/) · [국제신문](https://www.kookje.co.kr/)
-* 생활사: [e뮤지엄](http://www.emuseum.go.kr/) · [대한민국역사박물관 디지털아카이브](http://archive.much.go.kr/) · [근대기록문화아카이브](https://modern.koreastudy.or.kr/) · [지방문화원 자료](https://www.nculture.org/res/resourcesList.do) · [민주화운동 오픈아카이브](https://archives.kdemo.or.kr/) · [한국학 데이터베이스](http://aks.koreaa2z.com/) · [5·18기록관](https://www.518archives.go.kr/)
-* 기초·학술: [한국사데이터베이스](http://db.history.go.kr/) · [한국학 디지털 아카이브](http://yoksa.aks.ac.kr/) · [규장각 원문검색](https://kyudb.snu.ac.kr/) · [동북아역사넷](http://contents.nahf.or.kr/) · [RISS](https://www.riss.kr/) · [KCI](https://www.kci.go.kr/)
+* **법령·관보** (국가가 사회를 관리하려 한 틀): [국가법령정보센터](https://www.law.go.kr/) · [국립중앙도서관 관보](https://www.nl.go.kr/NL/contents/N20301000000.do) · [국가기록원 관보](https://theme.archives.go.kr/next/gazette/viewIntroduction01.do) · [대한민국 전자관보](https://gwanbo.go.kr/main.do)
+* **통계** (무엇을 세고 무엇을 안 셌나): [KOSIS 국가통계포털](https://kosis.kr/) · [통계청](https://kostat.go.kr/) · [매디슨 프로젝트](https://www.rug.nl/ggdc/historicaldevelopment/maddison/)
+* **공간** (장소의 역사): [국토정보플랫폼](https://map.ngii.go.kr/mn/mainPage.do) · [서울 항공사진](https://map.seoul.go.kr/smgis2/divisionMap) · [부산 항공사진](http://lifemap.busan.go.kr/) · [대구 항공사진](https://airmap.daegu.go.kr/airmap/public/map.do) · [규장각 고지도](https://kyudb.snu.ac.kr/main.do?mid=GZD) · [지적아카이브](https://theme.archives.go.kr/next/acreage/viewMain.do) · [인터넷등기소](https://www.iros.go.kr/)
+* **공문서** (국가의 기록): [국가기록원](https://www.archives.go.kr/) · [대통령기록관](https://www.pa.go.kr/) · [국무회의록](https://theme.archives.go.kr/next/cabinet/keywordDetailSearch.do) · [e영상역사관](http://www.ehistory.go.kr/) · [한국근현대영상아카이브](http://kfilm.khistory.org/) · [서울기록원](https://archives.seoul.go.kr/) · [서울도서관](https://lib.seoul.go.kr/) · [서울역사아카이브](https://museum.seoul.go.kr/archive/NR_index.do) · [서울시의회 회의록](https://ms.smc.seoul.kr/)
+* **언론** (시대의 목소리): [국립중앙도서관 신문 아카이브](https://nl.go.kr/newspaper/) · [한국역사정보통합시스템 신문](http://www.koreanhistory.or.kr/newsPaper.do) · [네이버 뉴스라이브러리](https://newslibrary.naver.com/) · [빅카인즈](https://www.bigkinds.or.kr/) · [부산일보 지면보기](https://www.busan.com/) · [국제신문](https://www.kookje.co.kr/)
+* **생활사** (보통 사람들의 기록): [e뮤지엄](http://www.emuseum.go.kr/) · [대한민국역사박물관 디지털아카이브](http://archive.much.go.kr/) · [근대기록문화아카이브](https://modern.koreastudy.or.kr/) · [지방문화원 자료](https://www.nculture.org/res/resourcesList.do) · [민주화운동 오픈아카이브](https://archives.kdemo.or.kr/) · [한국학 데이터베이스](http://aks.koreaa2z.com/) · [5·18기록관](https://www.518archives.go.kr/)
+* **기초·학술** (한국사 기본 DB와 논문): [한국사데이터베이스](http://db.history.go.kr/) · [한국학 디지털 아카이브](http://yoksa.aks.ac.kr/) · [규장각 원문검색](https://kyudb.snu.ac.kr/) · [동북아역사넷](http://contents.nahf.or.kr/) · [RISS](https://www.riss.kr/) · [KCI](https://www.kci.go.kr/)
 
 목록 파일: [db_directory.csv](data/db_directory.csv)
 
