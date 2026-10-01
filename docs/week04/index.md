@@ -56,4 +56,4 @@ layout: default
 ## 이 주의 자료(교수 제공)
 * [시연 5세트](../week03/data/01_%EC%95%95%EC%B6%95%EA%B7%BC%EB%8C%80_%EB%8F%84%EC%8B%9C%ED%99%94%EC%9C%A8/) (CSV·그림·README) · [지표 힌트표](../week03/data/indicator_hints.html)
 * 통계연감 자료 워크숍: [계열 뷰어](../workshop-stats/viewer.html) · [표 카탈로그](../workshop-stats/catalog.html)
-* [자료 분류 목록 42곳 CSV](data/db_directory.csv) (이름·URL·시기·유형·팁)
+* [자료 분류 목록 42곳](data/db_directory.html) (이름·URL·시기·유형·팁 · [CSV](data/db_directory.csv))
