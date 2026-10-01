@@ -35,13 +35,6 @@ layout: default
 ![민주주의 → 대선·총선 투표율 (1948~2025, 2차 자료·검증 필요)](../week03/data/05_%EB%AF%BC%EC%A3%BC%EC%A3%BC%EC%9D%98_%ED%88%AC%ED%91%9C%EC%9C%A8/chart.png)
 * 데이터·출처: [`05_민주주의_투표율/`](../week03/data/05_%EB%AF%BC%EC%A3%BC%EC%A3%BC%EC%9D%98_%ED%88%AC%ED%91%9C%EC%9C%A8/) (CSV·README)
 
-## 원칙
-1. **하나의 DB에 의존하지 말 것**
-2. **키워드 검색의 한계를 인식할 것**
-3. **자료의 부재도 자료이다**
-4. **온라인 검색은 출발점**
-5. **분류체계와 생산 맥락을 함께 읽을 것**
-
 ## 자료 분류
 * **법령·관보** (국가가 사회를 관리하려 한 틀): [국가법령정보센터](https://www.law.go.kr/) · [국립중앙도서관 관보](https://www.nl.go.kr/NL/contents/N20301000000.do) · [국가기록원 관보](https://theme.archives.go.kr/next/gazette/viewIntroduction01.do) · [대한민국 전자관보](https://gwanbo.go.kr/main.do)
 * **통계** (무엇을 세고 무엇을 안 셌나): [KOSIS 국가통계포털](https://kosis.kr/) · [통계청](https://kostat.go.kr/) · [매디슨 프로젝트](https://www.rug.nl/ggdc/historicaldevelopment/maddison/)
@@ -52,6 +45,13 @@ layout: default
 * **기초·학술** (한국사 기본 DB와 논문): [한국사데이터베이스](http://db.history.go.kr/) · [한국학 디지털 아카이브](http://yoksa.aks.ac.kr/) · [규장각 원문검색](https://kyudb.snu.ac.kr/) · [동북아역사넷](http://contents.nahf.or.kr/) · [RISS](https://www.riss.kr/) · [KCI](https://www.kci.go.kr/)
 
 목록 파일: [db_directory.csv](data/db_directory.csv)
+
+## 자료 찾기 가이드
+1. **하나의 DB에 의존하지 말 것**
+2. **키워드 검색의 한계를 인식할 것**
+3. **자료의 부재도 자료이다**
+4. **온라인 검색은 출발점**
+5. **분류체계와 생산 맥락을 함께 읽을 것**
 
 ## 이 주의 자료(교수 제공)
 * [시연 5세트](../week03/data/01_%EC%95%95%EC%B6%95%EA%B7%BC%EB%8C%80_%EB%8F%84%EC%8B%9C%ED%99%94%EC%9C%A8/) (CSV·그림·README) · [지표 힌트표](../week03/data/indicator_hints.html)
