@@ -60,11 +60,6 @@ layout: default
 * [리뷰 양식](https://juncholkimso.github.io/sh26-w7k2/common/templates/review-note.html)
 * 주차별 자료(데이터·안내)는 각 회차 페이지에
 
-## 규칙
-* 그림마다 "보여주는 것 / 숨기는 것" 두 문장.
-* 생성형 AI는 사용 내역 명시.
-* 광장 자료는 수업 목적으로만.
-
 *이 페이지는 학기 중 상황에 따라 바뀔 수 있다.
 
 문의: 소준철(전남대 전남광주인문사회연구원). junchol.kim.so@gmail.com *
